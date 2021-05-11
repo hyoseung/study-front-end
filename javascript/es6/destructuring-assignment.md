@@ -1,3 +1,7 @@
+---
+description: 구조분해할당
+---
+
 # 비구조화 할당 \(destructuring assignment\)
 
 객체 혹은 배열을 분해하여 필요한 필드만 추출하여, 별개의 변수로 대입하는 방식
