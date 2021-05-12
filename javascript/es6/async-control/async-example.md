@@ -13,7 +13,7 @@ async created() {
         searchCode: "all",
         searchKeyword: ""
     };
-    
+
     try {
         var data = await API.GET_ALL_PRODUCTS(params);
         this.productList = data.data;
@@ -71,12 +71,12 @@ mounted() {
 methods: {
     async testAsyncAwait() {
         console.log('[testAsyncAwait] start');
-        
+
         let params = {
             searchCode: "all",
             searchKeyword: ""
         };
-    
+
         try {
             var data = await API.GET_ALL_PRODUCTS(params);
             this.productList = data.data;
@@ -102,7 +102,7 @@ methods: {
 methods: {
     testPromise() {
         console.log('[testPromise] start');
-        
+
         let params = {
             searchCode: "all",
             searchKeyword: ""

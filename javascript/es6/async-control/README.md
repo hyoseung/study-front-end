@@ -2,19 +2,19 @@
 
 ## Callback
 
-콜백함수를 이용하면 특정 로직이 끝났을 때 원하는 동작을 실행시킬 수 있음 
+콜백함수를 이용하면 특정 로직이 끝났을 때 원하는 동작을 실행시킬 수 있음
 
 ```javascript
 // ajax
 
 function getData(callbackFunc) {
-	$.get('https://domain.com/products/1', function(res) {
-		callbackFunc(res); // 서버에서 받은 데이터 res를 callbackFunc() 함수에 넘겨줌
-	});
+    $.get('https://domain.com/products/1', function(res) {
+        callbackFunc(res); // 서버에서 받은 데이터 res를 callbackFunc() 함수에 넘겨줌
+    });
 }
 
 getData(function(result) {
-	console.log(result); // $.get()의 res값이 result에 전달됨
+    console.log(result); // $.get()의 res값이 result에 전달됨
 });
 ```
 
@@ -330,6 +330,4 @@ async function logTodoTitle() {
 * promise : [https://joshua1988.github.io/web-development/javascript/promise-for-beginners/](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
 * async await : [https://joshua1988.github.io/web-development/javascript/js-async-await/](https://joshua1988.github.io/web-development/javascript/js-async-await/)
 * 콜백지옥과 비동기 제 : [https://velog.io/@yujo/JS%EC%BD%9C%EB%B0%B1-%EC%A7%80%EC%98%A5%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%A0%9C%EC%96%B4](https://velog.io/@yujo/JS%EC%BD%9C%EB%B0%B1-%EC%A7%80%EC%98%A5%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%A0%9C%EC%96%B4)
-
-
 

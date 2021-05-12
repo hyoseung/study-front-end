@@ -1,4 +1,4 @@
-# ES6
+# ES6 문법
 
 ## Contents
 
@@ -22,6 +22,4 @@
 * 호이스팅 : [https://gmlwjd9405.github.io/2019/04/22/javascript-hoisting.html](https://gmlwjd9405.github.io/2019/04/22/javascript-hoisting.html)
 * 화살표함수에서의 this : [https://bubobubo003.tistory.com/54](https://bubobubo003.tistory.com/54)
 * 자바스크립트 this, bind 그리고 화살표 함수 : [https://bohyeon-n.github.io/deploy/javascript/this.html](https://bohyeon-n.github.io/deploy/javascript/this.html)
-
-
 

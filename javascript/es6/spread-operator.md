@@ -64,5 +64,3 @@ console.log(b); // 2
 console.log(rest); // [3, 4, 5]
 ```
 
-
-

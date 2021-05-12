@@ -33,7 +33,7 @@ class Person {
     this.name = name;
     this.age = age;
   }
-  
+
   print() {
     console.log(this.name + "의 나이는 " + this.age + "살 입니다.");
   }
