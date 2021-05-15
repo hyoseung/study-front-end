@@ -19,6 +19,7 @@
     * [설치](vue/vuex-orm/vuex-orm-install.md)
     * [설정](vue/vuex-orm/vuex-orm-setup.md)
     * [Model](vue/vuex-orm/vuex-orm-model.md)
+    * [Model Relationships](vue/vuex-orm/vuex-orm-model-relationships.md)
 * [Git](git/README.md)
   * [명령어](git/git-command.md)
 * [Package Manager](package-manager.md)
