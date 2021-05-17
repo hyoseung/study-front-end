@@ -64,7 +64,7 @@ export default class Detail extends Model {
 
 ## OneToOne
 
-* this.hasOne\(\)
+* `this.hasOne()`
 * 첫번째 인수 : the related model
 * 두번째 인수 : the 'foreign key' of the related model
 * 세번째 인수 : id값 이외에 사용자 지정키를 지정할 때
