@@ -113,7 +113,7 @@ export default class Delivery extends Model {
 }
 ```
 
-d
+
 
 
 
