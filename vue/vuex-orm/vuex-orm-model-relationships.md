@@ -51,7 +51,7 @@ export default class Detail extends Model {
   static fields () {
     return {
       detailId : this.number(null),
-      itemCode: this.string(null).nullable(),
+      storeName: this.string(null).nullable(),
       itemName: this.string(null).nullable(),
       itemCategory: this.string(null).nullable(), // 품목카테고리 (패션, 뷰티, 식품, 생필품, 디지털)
       quantity: this.number(0),
@@ -81,7 +81,7 @@ export default class Detail extends Model {
   static fields () {
     return {
       detailId : this.number(null),
-      itemCode: this.string(null).nullable(),
+      storeNameCode: this.string(null).nullable(),
       itemName: this.string(null).nullable(),
       itemCategory: this.string(null).nullable(), // 품목카테고리 (패션, 뷰티, 식품, 생필품, 디지털)
       quantity: this.number(0),
