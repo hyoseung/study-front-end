@@ -55,5 +55,10 @@ reset기능은 혼자만 사용하는 branch 이거나, 다른 사람들이 해�
   * soft : 변경 이력은 전부 삭제하지만 변경된 내용에 대해서는 남아있음
 * 강제 푸시 : `git --force push origin [branch 명]`
 
+## Commit message 수정하기
 
+마지막 커밋 메시지 수정
+
+* `git commit --amend -m "수정할 메시지"`
+* `git push -f`
 
