@@ -68,6 +68,12 @@ const a = 'test'
 | :--- | :--- |
 | 선언단계 + 초기화 단계 한번에 호이스팅 -&gt; `undefined` | 선언단계 호이스팅 -&gt; 참조 에러\(ReferenceError\) 발생 |
 
+### 호이스팅 우선순위
+
+변수 선언이 함수 선언보다 높은 우선순위를 가짐
+
+### 예제
+
 ```javascript
 console.log("hello");
 var color = "yellow"; // var 변수 
