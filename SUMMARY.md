@@ -14,6 +14,8 @@
     * [모듈 \(Module\)](javascript/es6/module.md)
     * [비동기 제어](javascript/es6/async-control/README.md)
       * [비동기 예제](javascript/es6/async-control/async-example.md)
+  * [JS 코어](javascript/js-core/README.md)
+    * [브라우저 동작원리](javascript/js-core/browser.md)
 * [Vue](vue/README.md)
   * [vuex-orm](vue/vuex-orm/README.md)
     * [설치](vue/vuex-orm/vuex-orm-install.md)
