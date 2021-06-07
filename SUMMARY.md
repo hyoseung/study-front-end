@@ -25,6 +25,8 @@
     * [설정](vue/vuex-orm/vuex-orm-setup.md)
     * [Model](vue/vuex-orm/vuex-orm-model.md)
     * [Model Relationships](vue/vuex-orm/vuex-orm-model-relationships.md)
+* [mobile web/app](mobile-web-app/README.md)
+  * [용어 및 개념](mobile-web-app/terminology-concept.md)
 * [Git](git/README.md)
   * [명령어](git/git-command.md)
 * [Package Manager](package-manager.md)
