@@ -82,7 +82,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">&#xAC1C;&#xBC1C;/&#xBC30;</td>
+      <td style="text-align:left">&#xAC1C;&#xBC1C;/&#xBC30;&#xD3EC;</td>
       <td style="text-align:left">
         <p>&#xAE30;&#xC874; &#xC0AC;&#xC774;&#xD2B8;&#xB97C; &#xC804;&#xBA74; &#xB9AC;&#xB274;&#xC5BC;
           &#xD558;&#xC5EC; &#xAC1C;&#xBC1C;</p>
