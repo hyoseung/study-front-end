@@ -25,7 +25,7 @@
 | 패키지 전역 설치 | npm i -g &lt;package-name&gt; | yarn add global &lt;package-name&gt; |
 | dependancy에 패키지 설치 | npm i &lt;package-name&gt; | yarn add &lt;package-name&gt; |
 | devDependancy에 패키지 설치 | npm i &lt;package-name&gt; --save-dev | yarn add &lt;package-name&gt; --dev |
-| 패키지 삭 | npm uninstall &lt;package-name&gt; | yarn remove &lt;package-name&gt; |
+| 패키지 삭제 | npm uninstall &lt;package-name&gt; | yarn remove &lt;package-name&gt; |
 | 모든 라이브러리를 최신 버전으로 업데이트 |  | yarn upgrade --latest |
 
 * dependencies : 배포용 라이브러리
