@@ -1,4 +1,4 @@
-# 용어 및 개념
+# mobile app과 PWA
 
 ## 반응형 vs 적응형
 
