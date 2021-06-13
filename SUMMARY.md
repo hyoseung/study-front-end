@@ -15,6 +15,7 @@
     * [비동기 제어](javascript/es6/async-control/README.md)
       * [비동기 예제](javascript/es6/async-control/async-example.md)
   * [JS 코어](javascript/js-core/README.md)
+    * [클로저\(Closure\)](javascript/js-core/closure.md)
     * [브라우저 동작원리](javascript/js-core/browser.md)
 * [Vue](vue/README.md)
   * [vue2 vs vue3](vue/vue23.md)
