@@ -31,7 +31,7 @@
 * dependencies : 배포용 라이브러리
 * devDependencies : 개발용 라이브러리
 
-## 출처 및 참고
+## 출처
 
 * [ooeunz \| 2019. 10. 11. 11:07 \| \[Node.js\] npm이란?](https://ooeunz.tistory.com/19)
 * [gwak2837 \| 2020년 2월 11일 \| yarn 사용법 \(npm과 비교\)](https://velog.io/@gwak2837/Node.js-%EA%B4%80%EB%A0%A8-%EC%83%81%EC%8B%9D)

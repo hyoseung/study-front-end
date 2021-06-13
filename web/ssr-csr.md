@@ -31,7 +31,7 @@
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-## 참고
+## 출처
 
-* [https://velog.io/@namezin/CSR-SSR](https://velog.io/@namezin/CSR-SSR)
+* [namezin \| 2020년 5월 11일 \| CSR, SSR](https://velog.io/@namezin/CSR-SSR)
 

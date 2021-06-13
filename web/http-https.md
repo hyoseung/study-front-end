@@ -20,8 +20,8 @@ SSL은 서버와 브라우저 사이에 안전하게 암호화된 연결을 만�
 
 TLS\(전송 계층 보안\) 프로토콜을 통해서도 보안을 유지함. TSL은 데이터 무결성을 제공하기 때문에 데이터가 전송 중에 수정되거나 손상되는 것을 방지하며, 사용자가 자신이 의도하는 웹사이트와 통신하고 있음을 입증하는 인증 기능도 제공함.
 
-## 참고
+## 출처
 
-* [http://blog.wishket.com/http-vs-https-%EC%B0%A8%EC%9D%B4-%EC%95%8C%EB%A9%B4-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%9D%98-%EB%A0%88%EB%B2%A8%EC%9D%B4-%EB%B3%B4%EC%9D%B8%EB%8B%A4/](http://blog.wishket.com/http-vs-https-%EC%B0%A8%EC%9D%B4-%EC%95%8C%EB%A9%B4-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%9D%98-%EB%A0%88%EB%B2%A8%EC%9D%B4-%EB%B3%B4%EC%9D%B8%EB%8B%A4/)
-* [https://1seok2.github.io/2020/12/03/http-https/](https://1seok2.github.io/2020/12/03/http-https/)
+* [WISHKET \| 2020/02/21 \| HTTP VS HTTPS 차이, 알면 사이트의 레벨이 보인다.](http://blog.wishket.com/http-vs-https-%EC%B0%A8%EC%9D%B4-%EC%95%8C%EB%A9%B4-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%9D%98-%EB%A0%88%EB%B2%A8%EC%9D%B4-%EB%B3%B4%EC%9D%B8%EB%8B%A4/)
+* [Seog \| 2020-12-03 \| frontend 면접 대비 HTTP, HTTPS 비교](https://1seok2.github.io/2020/12/03/http-https/)
 

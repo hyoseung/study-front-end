@@ -20,7 +20,7 @@ Composition API는 모든 코드를 독립적으로 정의할 수 있습니다. 
 
 또 컴포지션 API 내부의 setup\(\) 함수에서 자동으로 타입을 추론하기 때문 타입스크립트를 사용하기 수월해졌다
 
-## 참고
+## 출처
 
-* [https://www.samsungsds.com/kr/insights/vue\_js\_3.html](https://www.samsungsds.com/kr/insights/vue_js_3.html)
+* [백은제 \| 2021-04-21 \| Vue.js 3.0 무엇이 달라졌는가?](https://www.samsungsds.com/kr/insights/vue_js_3.html)
 

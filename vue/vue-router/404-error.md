@@ -43,7 +43,7 @@ export default router;
 
 nginx의 root 경로 기준으로 컨텐츠를 찾으려고 하기 때문에 발생한 오류입니다. 예를 들어 nginx  root 경로가 /usr/html 이라고 한다면 `http://서버주소/user`로 요청이 왔을 때, nginx는 /user/html 하위의 user라는 파일을 찾게 됩니다.
 
-## 해
+## 해결
 
 nginx의 설정이 필요
 
@@ -55,10 +55,8 @@ location / {
 
  요청한 url이 정적 컨텐츠와 일치하지 않으면 index.html 을 제공하라는 의미
 
-## 참고
+## 출처
 
-* [https://router.vuejs.org/kr/guide/essentials/history-mode.html\#%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC-%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%A6](https://router.vuejs.org/kr/guide/essentials/history-mode.html#%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC-%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%A6)
-* [https://cornswrold.tistory.com/439](https://cornswrold.tistory.com/439)
-
-
+* [Vue Router 공식문서](https://router.vuejs.org/kr/guide/essentials/history-mode.html#%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC-%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%A6)
+* [초보개발자 깡냉스 \| 2020. 7. 23. 22:43 \| 뷰\(Vue\) nginx 서버 설정](https://cornswrold.tistory.com/439)
 

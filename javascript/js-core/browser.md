@@ -59,11 +59,11 @@ background-color, visibility와 같이 레이아웃에는 영향을 주지 않�
 | :--- | :--- |
 | 요소를 보이지 않게 만들지만, 이 요소는 여전히 레이아웃에서 공간을 차지한다. | 요소가 보이지 않으며 레이아웃에 포함되지도 않도록 렌더링 트리에서 요소를 완전히 제거한다. |
 
-## 참고
+## 출처
 
-* [https://developers.google.com/web/updates/2018/09/inside-browser-part3?hl=ko](https://developers.google.com/web/updates/2018/09/inside-browser-part3?hl=ko)
-* [https://mingcoder.me/2020/02/25/Programming/Basic/browser-process/](https://mingcoder.me/2020/02/25/Programming/Basic/browser-process/)
-* [https://boxfoxs.tistory.com/408](https://boxfoxs.tistory.com/408)
+* [Mariko Kosaka \| 모던 웹 브라우저 들여다보기 \(파트 3\)](https://developers.google.com/web/updates/2018/09/inside-browser-part3?hl=ko)
+* [Mina Choi \| 2020-02-25 \| 브라우저 동작 원리](https://mingcoder.me/2020/02/25/Programming/Basic/browser-process/)
+* [박스여우 \| 2019. 7. 30. 23:37 \| 브라우저 렌더링 과정 - Reflow Repaint, 그리고 성능 최적화](https://boxfoxs.tistory.com/408)
 
 
 

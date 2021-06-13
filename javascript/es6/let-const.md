@@ -122,7 +122,7 @@ let hi = function() { // 호이스팅X - let, 함수표현식
 }
 ```
 
-## 참고
+## 출처
 
-* [https://velog.io/@holim0/Front-End-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-%EB%8C%80%EB%B9%84-Part1-hoisting-closure-this](https://velog.io/@holim0/Front-End-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-%EB%8C%80%EB%B9%84-Part1-hoisting-closure-this)
+* [holim0 \| 2021년 1월 2일 \| Front-End 면접 질문 대비 Part1 \(hoisting, closure, this\)](https://velog.io/@holim0/Front-End-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8-%EB%8C%80%EB%B9%84-Part1-hoisting-closure-this)
 

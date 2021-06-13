@@ -113,7 +113,7 @@ C\#으로 작성하여 이를 IOS/Android가 이해할 수 있는 IL\(Intermeida
 * 구글 등에서 검색이 가능하도록 최적화도 가능 \(서버사이드 렌더링을 제공해 SEO에 최적\)
 * 위치기능 지원, 푸시알람과 홈스크린에 접근 가능함.
 
-## 출처 및 참고
+## 출처
 
 * [dear\_sopi9211 \| 2021년 3월 12일 \| 앱 개발 방법의 장단점과 PWA](https://velog.io/@dear_sopi9211/%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EA%B3%BC-PWA)
 * [newbizstart \| 2020-08-13 \| 네이티브 앱 VS 하이브리드 앱](https://newbizstart.com/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EC%95%B1%EA%B3%BC-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%EC%95%B1-%EB%B9%84%EA%B5%90/)

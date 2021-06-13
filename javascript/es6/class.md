@@ -45,5 +45,5 @@ p1.print(); // 홍길동의 나이는 30살 입니다.
 
 ## 참고
 
-* Prototype : [https://velog.io/@afant/Javascript-%EA%BC%AD-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-Prototype%EC%9D%98-%EA%B0%9C%EB%85%90-](https://velog.io/@afant/Javascript-%EA%BC%AD-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-Prototype%EC%9D%98-%EA%B0%9C%EB%85%90-)
+* [afant \| 2019년 4월 21일 \| \[Javascript\] 꼭 알아야 할 Prototype의 개념](https://velog.io/@afant/Javascript-%EA%BC%AD-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-Prototype%EC%9D%98-%EA%B0%9C%EB%85%90-)
 

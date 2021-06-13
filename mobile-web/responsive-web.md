@@ -102,8 +102,8 @@
   </tbody>
 </table>
 
-## 참고
+## 출처
 
-* [https://www.castingn.com/sourcing/kkultip\_detail/113](https://www.castingn.com/sourcing/kkultip_detail/113)
-* [https://phrygia.github.io/2020-11-10/rwd-awd](https://phrygia.github.io/2020-11-10/rwd-awd)
+* [캐스팅엔 IT 매니저   \| 2020-08-18 \| 반응형 웹과 모바일 웹, 어떻게 개발할까요](https://www.castingn.com/sourcing/kkultip_detail/113)
+* [phrygia   \| 2020-11-10 \| \[web\] 반응형\(RWD\)웹과 적응형\(AWD\)웹](https://phrygia.github.io/2020-11-10/rwd-awd)
 

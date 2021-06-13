@@ -57,13 +57,14 @@ thisArg: func 호출에 제공되는 this의 값
 argsArray: func이 호출되어야 하는 인수를 지정하는 유사 배열 객체
 ```
 
-## 참고
+## 출처
 
-* [https://medium.com/@lidiach217/javascript-this-%ED%82%A4%EC%9B%8C%EB%93%9C-eb4e01313615](https://medium.com/@lidiach217/javascript-this-%ED%82%A4%EC%9B%8C%EB%93%9C-eb4e01313615)
-* [https://velog.io/@josworks27/%ED%95%A8%EC%88%98%ED%98%B8%EC%B6%9C-call-apply-bind-%EC%B0%A8%EC%9D%B4](https://velog.io/@josworks27/%ED%95%A8%EC%88%98%ED%98%B8%EC%B6%9C-call-apply-bind-%EC%B0%A8%EC%9D%B4)
-* [https://wooooooak.github.io/javascript/2018/12/08/call,apply,bind/](https://wooooooak.github.io/javascript/2018/12/08/call,apply,bind/)
+* [Lidia Chung   \| Apr 17, 2019·3 \| \[JavaScript\] This 키워드](https://medium.com/@lidiach217/javascript-this-%ED%82%A4%EC%9B%8C%EB%93%9C-eb4e01313615)
 
 
 
 
+
+* [josworks27·2020년 3월 7일 \| 함수 호출 call, apply, bind의 차이](https://velog.io/@josworks27/%ED%95%A8%EC%88%98%ED%98%B8%EC%B6%9C-call-apply-bind-%EC%B0%A8%EC%9D%B4)
+* [쾌락코딩 \| 08 Dec 2018 \| binding의 개념과 call, apply, bind의 차이점](https://wooooooak.github.io/javascript/2018/12/08/call,apply,bind/)
 
