@@ -47,8 +47,6 @@ window.localStorage.clear(); // All clear
 * 서로 다른 세션 스토리지는 서로 영향을 주지 않으며 독립적으로 동작
 * 윈도우 복제로 생성된 경우, 혹은 스크립트로 새 창을 연 경우 세션 스토리지가 복제되어 생성
 
-
-
 ```javascript
 window.sessionStorage.setItem('key', 'value);
 window.sessionStorage.getItem('key');
