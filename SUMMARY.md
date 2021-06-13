@@ -22,6 +22,7 @@
   * [SSR, CSR](web/ssr-csr.md)
   * [http, https](web/http-https.md)
   * [쿠키, 웹 스토리지](web/cookie-web-storage.md)
+  * [SameStie](web/same-site.md)
 * [Vue](vue/README.md)
   * [vue2 vs vue3](vue/vue23.md)
   * [vue-router](vue/vue-router/README.md)
