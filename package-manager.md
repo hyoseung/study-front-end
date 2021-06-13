@@ -31,9 +31,11 @@
 * dependencies : 배포용 라이브러리
 * devDependencies : 개발용 라이브러리
 
-## 참고
+## 출처 및 참고
 
-* [https://ooeunz.tistory.com/19](https://ooeunz.tistory.com/19)
-* [https://velog.io/@gwak2837/Node.js-%EA%B4%80%EB%A0%A8-%EC%83%81%EC%8B%9D](https://velog.io/@gwak2837/Node.js-%EA%B4%80%EB%A0%A8-%EC%83%81%EC%8B%9D)
-* [https://dark0946.tistory.com/419](https://dark0946.tistory.com/419)
+* [ooeunz \| 2019. 10. 11. 11:07 \| \[Node.js\] npm이란?](https://ooeunz.tistory.com/19)
+* [gwak2837 \| 2020년 2월 11일 \| yarn 사용법 \(npm과 비교\)](https://velog.io/@gwak2837/Node.js-%EA%B4%80%EB%A0%A8-%EC%83%81%EC%8B%9D)
+* [Damien.Lee   \| 2020. 12. 8. 16:30 \| NPM? Yarn? , 본인에게 편한게 최고!](https://dark0946.tistory.com/419)
+
+
 
