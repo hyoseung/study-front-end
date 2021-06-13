@@ -22,7 +22,46 @@
 > * 함수 : 자바스크립트 내장 객체인 Function 생성자로 생성된 객체
 > * 메소드 : Function 내장 객체로 생성된 함수가 객체의 프로퍼티가 될 때
 
+## 명시적 지
 
+### bind
+
+함수가 가리키는 this 만 바꾸고 실행시키지않음
+
+```javascript
+func.bind(thisArg[, arg1[, arg2[, ...]]])
+
+thisArg: 바인딩 함수가 타겟 함수의 this에 전달하는 값
+arg1, arg2, ...: func이 호출되어야 하는 인수
+```
+
+### call
+
+this를 바인딩하고 함수를 호출하고 실행시킴
+
+```javascript
+func.call(thisArg[, arg1[, arg2[, ...]]])
+
+thisArg: func 호출에 제공되는 this의 값
+arg1, arg2, ...: func이 호출되어야 하는 인수
+```
+
+### apply
+
+call과 비슷하지만만 인자 전달을 배열로 해줌
+
+```javascript
+fun.apply(thisArg, [argsArray])
+
+thisArg: func 호출에 제공되는 this의 값
+argsArray: func이 호출되어야 하는 인수를 지정하는 유사 배열 객체
+```
+
+## 참고
+
+* [https://medium.com/@lidiach217/javascript-this-%ED%82%A4%EC%9B%8C%EB%93%9C-eb4e01313615](https://medium.com/@lidiach217/javascript-this-%ED%82%A4%EC%9B%8C%EB%93%9C-eb4e01313615)
+* [https://velog.io/@josworks27/%ED%95%A8%EC%88%98%ED%98%B8%EC%B6%9C-call-apply-bind-%EC%B0%A8%EC%9D%B4](https://velog.io/@josworks27/%ED%95%A8%EC%88%98%ED%98%B8%EC%B6%9C-call-apply-bind-%EC%B0%A8%EC%9D%B4)
+* [https://wooooooak.github.io/javascript/2018/12/08/call,apply,bind/](https://wooooooak.github.io/javascript/2018/12/08/call,apply,bind/)
 
 
 
