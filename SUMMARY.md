@@ -20,6 +20,7 @@
     * [브라우저 동작원리](javascript/js-core/browser.md)
 * [Web](web/README.md)
   * [SSR, CSR](web/ssr-csr.md)
+  * [http, https](web/http-https.md)
 * [Vue](vue/README.md)
   * [vue2 vs vue3](vue/vue23.md)
   * [vue-router](vue/vue-router/README.md)
