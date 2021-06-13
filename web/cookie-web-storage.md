@@ -2,24 +2,25 @@
 
 ## 쿠키 \(Cookie\)
 
+* key, value 데이터 파일로 이름, 값, 만료 날짜\(저장 날짜\), 경로 정보가 필요
 * 클라이언트의 브라우저 메모리 혹은 하드디스크에 저장
 
 
 
 * 매번 서버에 전송
-* 대략 4KB까지의 데이터를 저장할 수 있음
+* 4KB까지의 데이터를 저장할 수 있음
 * 유효 기간이 존재
 * SameSite 옵션이 Strict가 아닌 경우, 다른 도메인에서 요청할 때도 자동 전송되는 위험성이 있음 \(CSRF 취약\)
 
 ## 웹 스토리지 \(Web Storage\)
 
 * 클라이언트에 데이터를 저장할 수 있도록 HTML5부터 새롭게 지원하는 저장소
-* 키\(Key\)와 값\(Value\)의 쌍 형태로 데이터를 저장
-
-
-
+* key, value로 이루어진 데이터 파일
 * 쿠키와 달리, 필요한 경우에만 꺼내 쓰는 것이므로 자동 전송의 위험성이 없음. 다른 도메인에서 요청하는 경우에는, 꺼내 쓰고 싶어도 도메인 단위로 접근이 제한되는 특성 덕분에 값을 꺼내 쓸 수 없음. \(CSRF 안전\)
-* 대략 5MB까지의 데이터를 저장할 수 있음
+* 기기마다 차이는 있으나 모바일 2.5MB, 데스크탑 5MB~10MB정도 저장 가능
+
+
+
 * 유효 기간이 존재하지 않음
 * HTML5를 지원하지 않는 브라우저에서는 사용할 수 없음
 * 로컬 스토리지\(Local Storage\), 세션 스토리지\(Session Storage\)
@@ -31,6 +32,13 @@
 * 도메인별로 생성되며, 다른 도메인의 로컬 스토리지에는 접근이 불가능
 * 서로 다른 브라우저 탭이라도 동일한 도메인이라면 동일한 로컬 스토리지를 사용
 
+```javascript
+window.localStorage.setItem('key','value');
+window.localStorage.getItem('key');
+window.localStorage.removeItem('key');
+window.localStorage.clear(); // All clear
+```
+
 ### 세션 스토리지 \(Session Storage\)
 
 * window.sessionStorage 객체
@@ -41,7 +49,17 @@
 
 
 
+```javascript
+window.sessionStorage.setItem('key', 'value);
+window.sessionStorage.getItem('key');
+window.sessionStorage.removeItem('key');
+window.sessionStorage.clear(); // All clear
+```
+
 ## 출처
 
 * [피그브라더 \| 2020. 8. 4. 11:08 \| \[Web\] 쿠키, 웹 스토리지 \(로컬 스토리지, 세션 스토리지\)](https://it-eldorado.tistory.com/90)
+* [okayoon 스어네 \| 2019. 6. 5. 10:11 \| 브라우저 쿠키\(Cookie\), 세션스토리지\(Session Storage\), 로컬스토리지\(Local Storage\)](https://okayoon.tistory.com/entry/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%BF%A0%ED%82%A4Cookie-%EC%84%B8%EC%85%98%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80Session-Storage-%EB%A1%9C%EC%BB%AC%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80Local-Storage)
+
+
 
