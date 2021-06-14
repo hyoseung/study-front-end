@@ -8,7 +8,7 @@
 * Sass자체로 브라우저에 적용하는 것이 아니라 CSS를 확장해서 쉽고 편리하게 쓰기 위해 쓰는 스크립팅 언어
 * Sass로 작성한 코드는 컴파일을 해서 일반 CSS의 문법으로 바꾼 뒤 적용
 
-![https://velog.io/@jch9537/CSS-SCSS-SASS](../.gitbook/assets/image%20%285%29.png)
+![https://velog.io/@jch9537/CSS-SCSS-SASS](../../.gitbook/assets/image%20%285%29.png)
 
 ### 사용하는 이유
 
