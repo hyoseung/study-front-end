@@ -78,5 +78,3 @@
 * [MDN Web Docs &gt; Location](https://developer.mozilla.org/ko/docs/Web/API/Location)
 * [양은냄비 \| 2016. 10. 22. 01:22 \| Location 객체](https://iamawebdeveloper.tistory.com/41)
 
-
-
