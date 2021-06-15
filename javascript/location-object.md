@@ -4,6 +4,7 @@
 
 * Location 객는 객체가 연결된 장소\(URL\)을 표현
 * `Document.location`와 `Window.location`으로 접근 가능
+* document.location보다 window.location으로 접근하는것을 권장
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
@@ -54,10 +55,10 @@
     <tr>
       <td style="text-align:left">replace(url)</td>
       <td style="text-align:left">
-        <p>&#xC0C8;&#xB85C;&#xC6B4; &#xC8FC;&#xC18C; &#xC774;&#xB3D9;(&#xC138;&#xC158;
-          &#xD788;&#xC2A4;&#xD1A0;&#xB9AC;&#xAC00; &#xB0A8;&#xC9C0; &#xC54A;&#xAE30;
-          &#xB54C;&#xBB38;&#xC5D0; back&#xBC84;&#xD2BC;&#xC73C;&#xB85C; &#xC774;&#xB3D9;
-          &#xBD88;&#xAC00;)
+        <p>&#xC0C8;&#xB85C;&#xC6B4; &#xC8FC;&#xC18C; &#xC774;&#xB3D9;
+          <br />(assign&#xACFC; &#xB2E4;&#xB978;&#xC810;&#xC740; &#xC138;&#xC158; &#xD788;&#xC2A4;&#xD1A0;&#xB9AC;&#xAC00;
+          &#xB0A8;&#xC9C0; &#xC54A;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; back&#xBC84;&#xD2BC;&#xC73C;&#xB85C;
+          &#xC774;&#xB3D9; &#xBD88;&#xAC00;)
           <br />
         </p>
         <p>
