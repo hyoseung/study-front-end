@@ -51,14 +51,14 @@ sass test.scss test.css
 	div {
 		height:100%;
 		display:inline-block;
-	}
-	div:first-child {
-		width: 33.3%;
-		background:#1f518b;
-	}
-	div:first-child + div {
-		width: 66.6%;
-		background:#f7e041;
+    &:first-child {
+      width: 33.3%;
+      background:#1f518b;
+    }
+    &:first-child + div {
+      width: 66.6%;
+      background:#f7e041;
+    }
 	}
 }
 ```
