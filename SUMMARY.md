@@ -18,6 +18,7 @@
     * [this 키워드](javascript/js-core/this.md)
     * [클로저\(Closure\)](javascript/js-core/closure.md)
     * [브라우저 동작원리](javascript/js-core/browser.md)
+  * [Location 객체](javascript/location-object.md)
 * [HTML & CSS](html-css/README.md)
   * [Sass \(SCSS\)](html-css/sass-scss/README.md)
     * [예제](html-css/sass-scss/sass-example.md)
