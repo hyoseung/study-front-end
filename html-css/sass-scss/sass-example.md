@@ -21,7 +21,7 @@ sass test.scss test.css
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <title>Document</title>
-<link rel="stylesheet" href="./scss/02_1.css">
+<link rel="stylesheet" href="./scss/test.css">
 </head>
 <body>
 	<div id="wrap">
@@ -33,7 +33,7 @@ sass test.scss test.css
 ```
 
 ```css
-// 02_1.scss
+// test.scss
 
 *{margin:0; padding:0;}
 #wrap {
