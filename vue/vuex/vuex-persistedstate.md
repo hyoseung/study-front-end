@@ -14,4 +14,5 @@ yarn add vuex-persistedstate
 
 * Git : [https://github.com/robinvdvleuten/vuex-persistedstate](https://github.com/robinvdvleuten/vuex-persistedstate)
 * npm : [https://www.npmjs.com/package/vuex-persistedstate](https://www.npmjs.com/package/vuex-persistedstate)
+* [기억보다 기록을 \| kyounghwan01 \| vuex 새로고침시 상태 초기화 방지](https://kyounghwan01.github.io/blog/Vue/vuex/vuex-persistedstate/#%E1%84%89%E1%85%A5%E1%84%85%E1%85%A9%E1%86%AB-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B2)
 
