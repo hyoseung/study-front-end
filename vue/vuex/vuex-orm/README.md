@@ -4,6 +4,12 @@ Vuex ORM은 Object-Relational Mapping이 Vuex Store에 접근할 수 있게 하�
 
 Vuex ORM is a plugin for Vuex to enable Object-Relational Mapping access to the Vuex Store. Vuex ORM lets you create "normalized" data schema within Vuex Store with relationships such as "Has One" and "Belongs To Many" like any other usual ORM library. It also provides fluent API to get, search and update Store state.
 
+## 설치
+
+```text
+yarn add @vuex-orm/core
+```
+
 ## 출처
 
 * 공식문서 : [https://vuex-orm.org/](https://vuex-orm.org/)

@@ -2,7 +2,7 @@
 
 ## 폴더 구조
 
-![](../../.gitbook/assets/image.png)
+![](../../../.gitbook/assets/image.png)
 
 ## Define Models
 
