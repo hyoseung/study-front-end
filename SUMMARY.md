@@ -50,4 +50,5 @@
 * [Git](git/README.md)
   * [명령어](git/git-command.md)
 * [Package Manager](package-manager.md)
+* [읽어보기](read.md)
 
