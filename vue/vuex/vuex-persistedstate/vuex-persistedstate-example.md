@@ -1,6 +1,8 @@
-# 예제
+---
+description: 'vuex-persistedstate, js-cookie를 이용한 개발과 이슈 공유'
+---
 
-`vuex-persistedstate`, `js-cookie`를 이용한 개발과 이슈 공유
+# 예제
 
 ```javascript
 // store/index.js
