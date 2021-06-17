@@ -58,7 +58,6 @@ export default {
   mutations: {
     setUserInfo(state, payload) {
       state.user = payload.user;
-      state.loginPathName = payload.loginPathName;
       state.connectionTime = new Date();
     }
   },
