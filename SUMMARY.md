@@ -34,6 +34,8 @@
   * [vuex](vue/vuex/README.md)
     * [vuex-persistedstate](vue/vuex/vuex-persistedstate/README.md)
       * [설정](vue/vuex/vuex-persistedstate/vuex-persistedstate-setup.md)
+      * [cookie 사용](vue/vuex/vuex-persistedstate/vuex-persistedstate-cookie.md)
+      * [예제](vue/vuex/vuex-persistedstate/vuex-persistedstate-example.md)
     * [vuex-orm](vue/vuex/vuex-orm/README.md)
       * [설정](vue/vuex/vuex-orm/vuex-orm-setup.md)
       * [Model](vue/vuex/vuex-orm/vuex-orm-model.md)
