@@ -119,6 +119,8 @@ VUE_APP_COMMON_TEST = "common test"
 
 `console.log(process.env);` 로 호출해본 결과
 
+![](../.gitbook/assets/image%20%2818%29.png)
+
 ## 출처
 
 * vue.config.js : [https://cli.vuejs.org/config/\#global-cli-config](https://cli.vuejs.org/config/#global-cli-config)
