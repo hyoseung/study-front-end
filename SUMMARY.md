@@ -42,6 +42,7 @@
       * [Model Relationships](vue/vuex/vuex-orm/vuex-orm-model-relationships.md)
   * [Storybook](vue/story-book/README.md)
     * [webpack 설정](vue/story-book/story-book-webpack.md)
+    * [예제](vue/story-book/story-book-example.md)
   * [v-if key](vue/v-if-key.md)
   * [환경변수 설정](vue/env-config.md)
 * [Mobile Web](mobile-web/README.md)
