@@ -40,6 +40,7 @@
       * [설정](vue/vuex/vuex-orm/vuex-orm-setup.md)
       * [Model](vue/vuex/vuex-orm/vuex-orm-model.md)
       * [Model Relationships](vue/vuex/vuex-orm/vuex-orm-model-relationships.md)
+  * [Storybook](vue/story-book.md)
   * [v-if key](vue/v-if-key.md)
   * [환경변수 설정](vue/env-config.md)
 * [Mobile Web](mobile-web/README.md)
