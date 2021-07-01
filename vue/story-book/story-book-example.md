@@ -2,6 +2,8 @@
 
 Kendo UI Component를 이용하여 공통으로 사용할 수 있는 Dialog Component를 만든 후 storybook에 추가
 
+참고 사이트 : [https://ipadorusa.com/posts/Storybook-vue-step03](https://ipadorusa.com/posts/Storybook-vue-step03)
+
 ### KendoDialog.vue
 
 ```javascript
@@ -97,4 +99,12 @@ FirstStory.args = {
 };
 
 ```
+
+### storybook
+
+![&#xCCAB; &#xD654;&#xBA74;](../../.gitbook/assets/image%20%2819%29.png)
+
+![&quot;click&quot;&#xBC84;&#xD2BC; &#xD074;&#xB9AD; &#xD6C4; &amp;gt; Dialog &#xBCF4;&#xC5EC;&#xC9D0;](../../.gitbook/assets/image%20%2822%29.png)
+
+![Dialog&#xC5D0; &quot;&#xD655;&#xC778;&quot;&#xBC84;&#xD2BC; &#xD074;&#xB9AD;](../../.gitbook/assets/image%20%2820%29.png)
 
