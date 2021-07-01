@@ -4,8 +4,6 @@ description: 'vuex-persistedstate, js-cookie를 이용한 개발과 이슈 공�
 
 # 예제
 
-## 코드
-
 ```javascript
 // store/index.js
 
@@ -90,7 +88,7 @@ export default {
 * 새로고침 시 getItem를 통해 cookie에 저장된 값을 가져옴
 * vuex에 `mutation`이 호출되면 setItem을 호출함
 
-## 이슈
+### 이슈
 
 `test 모듈`에서 `mutation`이 호출되면 `storage > setItem`이 호출되어 `login 모듈`에 `state`를 `cookie`에 저장합니다. `paths: ['login']`을 설정과는 별도로 `login 모듈`에 `state`가 변경되었을때만 `storage > setItem`을 호출하도록 코드를 수정해야 합니다.
 
