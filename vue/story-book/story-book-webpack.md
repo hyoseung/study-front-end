@@ -22,6 +22,9 @@ module.exports = {
 }
 ```
 
+* \_\_dirname : 현재 실행 중인 폴더 경로
+* \_\_filename : 현재 실행 중인 파일 경로
+
 ## scss 파일 지원
 
 `.storybook`에 `main.js` 수정
