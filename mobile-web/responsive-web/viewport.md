@@ -28,8 +28,8 @@
 | heigth        | device-height, 양수  | 높이                                                                    |
 | initial-scale | 양수                 | <p>초기 배율지정, 기본값 1 </p><p>1 > 축소된 페이지 표시</p><p>1 &#x3C; 확대된 페이지 표시</p> |
 | user-scalable | yes, no            | 확대/축소 여부, 기본값 yes                                                     |
-| minimum-scale | 양수                 | 최소 축소 비율, 기본값 0.25                                                    |
-| maximum-scale | 양수                 | 최대 확대 비율, 기본값 5.0                                                     |
+| minimum-scale | 양수                 | <p>최소 축소 비율, 기본값 0.25</p><p>0~10 사이의 값</p>                            |
+| maximum-scale | 양수                 | <p>최대 확대 비율, 기본값 5.0</p><p>0~10 사이의 값</p>                             |
 
 ## 출처
 
