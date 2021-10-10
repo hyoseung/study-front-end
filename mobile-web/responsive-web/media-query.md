@@ -33,7 +33,7 @@
 | print, projection, handheld | 인쇄, 프로젝터, 소형 장치                |
 | speech, aural               | 음성 출력, 음성 합성(화면을 읽어 소리로 출력) 장치 |
 | embossed, braille           | 점자 인쇄 장치, 점자 표시 장치             |
-| tty                         |                                |
+| tty                         | 디스플레이 기능이 제한된 장치               |
 
 ## 출처
 
