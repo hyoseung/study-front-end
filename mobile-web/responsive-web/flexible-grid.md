@@ -176,7 +176,7 @@ img, video {
 * 16:9 비율로 동영상을 제공 -> 패딩 속성을 이용하여 가변적 요소 만들 수 있음
 * fitvids와 같은 라이브러리 사용
 
-```
+```css
 <style>
 #wrap {
   position: relative;
@@ -187,9 +187,16 @@ img, video {
 
 iframe {
   position: absolute;
-  top:
+  top: 0;
+  left: 0;
+  hegith: 100%
 }
 </style>
+<body>
+  <div id="wrap">
+    <iframe></iframe>
+  </div>
+</body>
 ```
 
 ## 출처
