@@ -55,7 +55,7 @@
 
 ![](<../../.gitbook/assets/image (32).png>)
 
-```markup
+```css
 <style>
 #wrap {
   width: 90%;
