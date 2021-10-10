@@ -179,7 +179,15 @@ img, video {
 ```
 <style>
 #wrap {
-  position: relativ  
+  position: relative;
+  padding-bottom: 56.25% /* 9/16 */
+  height: 0;
+  overflow: hidden;  
+}
+
+iframe {
+  position: absolute;
+  top:
 }
 </style>
 ```
