@@ -5,7 +5,19 @@
 * 화면에 보이는 영역을 제어하는 기술
 * 미디어 쿼리로 수많은 기기의 화면 크기를 감지해야 할 때 필요
 * 스마트 기기의 보이는 영역을 기기의 실제 화면 크기로 변경하여 미디어 쿼리가 기기의 화면 크기를 정확하게 감지할 수 있도록 하기 위해 뷰포트 기술 사용 (데스크톱은 사용자가 지정한 해상도에 따라 보이는 영역이 결정, 스마트 기기는 기본 설정값이 자동으로 보이는 영역으로 설정)
-*
+
+```
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<title>Document</title>
+</head>
+<body>
+</body>
+</html>
+```
 
 ##
 
