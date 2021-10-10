@@ -22,14 +22,14 @@
 
 ## 뷰포트 속성
 
-| 속성명           | 속성값                | 설명                    |
-| ------------- | ------------------ | --------------------- |
-| width         | device-width, 양수   | 너비                    |
-| heigth        | device-height, 양수  | 높이                    |
-| initial-scale | 양수                 | <p>초기 배율지정</p><p></p> |
-| user-scalable | yes, no            |                       |
-| minimum-scale | 양수                 |                       |
-| maximum-scale | 양수                 |                       |
+| 속성명           | 속성값                | 설명                                                                    |
+| ------------- | ------------------ | --------------------------------------------------------------------- |
+| width         | device-width, 양수   | 너비                                                                    |
+| heigth        | device-height, 양수  | 높이                                                                    |
+| initial-scale | 양수                 | <p>초기 배율지정, 기본값 1 </p><p>1 > 축소된 페이지 표시</p><p>1 &#x3C; 확대된 페이지 표시</p> |
+| user-scalable | yes, no            | 확대/축소 여부, 기본값 yes                                                     |
+| minimum-scale | 양수                 |                                                                       |
+| maximum-scale | 양수                 |                                                                       |
 
 ## 출처
 
