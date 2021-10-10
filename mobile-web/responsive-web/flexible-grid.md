@@ -164,7 +164,7 @@ rem 단위 웹 문서의 시작인 \<html>\</html> 태그 기준으로 하기 �
 
 ### 비율상관 없이 가변적인 멀티미디어
 
-```
+```html
 <style>
 ...
 img, video {
@@ -173,7 +173,11 @@ img, video {
 }
 ...
 </style>
-<bod
+<body>
+  <video>
+    <source src="~.mp4" type="video/map4"></source>
+  </video>
+</body>
 ```
 
 ## 출처
