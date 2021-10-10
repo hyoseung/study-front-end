@@ -29,10 +29,9 @@
 | --------------------------- | ------------------- |
 | all                         | 모든장치, 기본값           |
 | screen                      | 컴퓨터 화면 or 스마트 기기 화면 |
-| tv                          |                     |
-| print, projection, handheld |                     |
-|                             |                     |
-|                             |                     |
+| tv                          | 영상과 음성이 동시에 출력되는 장치 |
+| print, projection, handheld | 인쇄, 프로젝터, 소형 장치     |
+| speech, aural, embossed,    |                     |
 
 ## 출처
 
