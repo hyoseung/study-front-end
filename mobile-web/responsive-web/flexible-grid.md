@@ -176,7 +176,13 @@ img, video {
 * 16:9 비율로 동영상을 제공 -> 패딩 속성을 이용하여 가변적 요소 만들 수 있음
 * fitvids와 같은 라이브러리 사용
 
-
+```
+<style>
+#wrap {
+  position: relativ  
+}
+</style>
+```
 
 ## 출처
 
