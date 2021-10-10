@@ -42,7 +42,10 @@
 ```
 
 {% hint style="info" %}
-disa
+display 속성
+
+* inline: 줄바꿈x, 한줄에 나란히 배치, widht/height 무시, margin/padding 좌우O, 상하X
+* block: 줄바꿈O, width/height/margin/
 {% endhint %}
 
 ### 가변 패딩
