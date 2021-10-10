@@ -166,8 +166,14 @@ rem 단위 웹 문서의 시작인 \<html>\</html> 태그 기준으로 하기 �
 
 ```
 <style>
-
+...
+img, video {
+  width: 100%;
+  max-width: 100%;
+}
+...
 </style>
+<bod
 ```
 
 ## 출처
