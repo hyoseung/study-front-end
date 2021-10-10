@@ -22,11 +22,14 @@
 
 ## 뷰포트 속성
 
-| 속성명    | 속성값                | 설명 |
-| ------ | ------------------ | -- |
-| width  | device-width, 양수   | 너비 |
-| heigth | device-height, 양수  | 높이 |
-|        |                    |    |
+| 속성명           | 속성값                | 설명 |
+| ------------- | ------------------ | -- |
+| width         | device-width, 양수   | 너비 |
+| heigth        | device-height, 양수  | 높이 |
+| initial-scale | 양수                 |    |
+| user-scalable | yes, no            |    |
+| minimum-scale | 양수                 |    |
+| maximum-scale | 양수                 |    |
 
 ## 출처
 
