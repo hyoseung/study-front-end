@@ -44,15 +44,14 @@
 {% hint style="info" %}
 display 속성
 
-* inline: 줄바꿈x, 한줄에 나란히 배치, widht/height 무시, margin/padding 좌우O, 상하X
-* block: 줄바꿈O, width/height/margin/
+* inline: 줄바꿈X, 한줄에 나란히 배치, widht/height 무시, margin/padding 좌우O, 상하X
+* block: 줄바꿈O, width/height/margin/padding 모두 반영
+* inline-block: 줄바꿈X, width/height/margin/padding 모두 반영
 {% endhint %}
 
 ### 가변 패딩
 
 가변 패딩은 가변 마진과 달리 박스 width에 포함되어 있음
-
-#### 공식
 
 > (가변 패딩을 적용한 패딩값 / 적용할 박스를 감싸고 있는 박스의 가로 너비) \* 100 = 가변 패딩값
 
