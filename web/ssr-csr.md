@@ -1,22 +1,22 @@
 # SSR, CSR
 
-## SSR \(Server Side Rendering\)
+## SSR (Server Side Rendering)
 
 완전하게 만들어진 HTML 파일을 서버로부터 받아오고 이를 웹브라우저에 렌더링
 
 ### 장점
 
 * 초기 로딩속도 빠름
-* SEO\(검색엔진 최적화\) 가능
+* SEO(검색엔진 최적화) 가능
 
 ### 단점
 
 * 웹서버에 요청을 할 때마다 브라우저 새로고침이 일어나고 새로운 페이지는 서버에 요청
 * 서버에 매번 요청을 하기 때문에 트래픽, 서버 부하가 커짐
 
-## CSR \(Client Side Rendering\)
+## CSR (Client Side Rendering)
 
-처음에 웹서버에 요청할 때 데이터가 없는 문서를 반환 -&gt; HTML 및 static 파일들이 로드되면서 데이터가 있으면 데이터를 서버에 요청하고 화면에 렌더링
+처음에 웹서버에 요청할 때 데이터가 없는 문서를 반환 -> HTML 및 static 파일들이 로드되면서 데이터가 있으면 데이터를 서버에 요청하고 화면에 렌더링
 
 ### 장점
 
@@ -26,12 +26,11 @@
 
 ### 단점
 
-* SEO\(검색엔진 최적화\) 문제가 발생
+* SEO(검색엔진 최적화) 문제가 발생
 * 초기 구동속도 느림
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](<../.gitbook/assets/image (27).png>)
 
 ## 출처
 
-* [namezin \| 2020년 5월 11일 \| CSR, SSR](https://velog.io/@namezin/CSR-SSR)
-
+* [namezin | 2020년 5월 11일 | CSR, SSR](https://velog.io/@namezin/CSR-SSR)

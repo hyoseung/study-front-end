@@ -2,7 +2,7 @@
 
 ## `created`에서 `async` `await`
 
--&gt; created에서 async await를 사용하면 호출완료된 다음 mounted가 호출되지 않음 \(주의\)
+\-> created에서 async await를 사용하면 호출완료된 다음 mounted가 호출되지 않음 (주의)
 
 ```javascript
 async created() {
@@ -30,7 +30,7 @@ mounted() {
 },
 ```
 
-![](../../../.gitbook/assets/image%20%2823%29.png)
+![](<../../../.gitbook/assets/image (23).png>)
 
 ## `created`에서 `Promise`
 
@@ -61,7 +61,7 @@ mounted() {
 },
 ```
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](<../../../.gitbook/assets/image (24).png>)
 
 ## 일반함수에서 `async` `await`
 
@@ -92,7 +92,7 @@ methods: {
 }
 ```
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](<../../../.gitbook/assets/image (21).png>)
 
 ## 일반함수에서 `Promise`
 
@@ -124,5 +124,4 @@ methods: {
 }
 ```
 
-![](../../../.gitbook/assets/image%20%2825%29.png)
-
+![](<../../../.gitbook/assets/image (25).png>)

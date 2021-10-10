@@ -20,8 +20,8 @@
 * 원격 브랜치 목록 : `git branch -r`
 * 로컬 브랜치 목록 : `git branch -a`
 * 현재 브랜치 확인 : `git branch -v`
-* 로컬에 새로운 브랜치 생성 : `git branch [branch 이름`\]
-* 로컬 브랜치 삭제 : `git branch -d [branch 이름`\]
+* 로컬에 새로운 브랜치 생성 : `git branch [branch 이름`]
+* 로컬 브랜치 삭제 : `git branch -d [branch 이름`]
 * 현재 브랜치 상태 : `git status`
 * 브랜치 이동 : `git checkout [branch 이름]`
 * git 원격 브랜치 tracking 삭제 : `git branch --delete --remotes origin/main`
@@ -35,7 +35,7 @@
 local develop branch가 feature/test branch보다 commit이 앞서있는 경우
 
 1. `git checkout feature/test`
-2. `git merge develop`  \(feature/test &lt;- develop, fast-forward 됨\)
+2. `git merge develop`  (feature/test <- develop, fast-forward 됨)
 
 ## stash
 
@@ -61,23 +61,23 @@ reset기능은 혼자만 사용하는 branch 이거나, 다른 사람들이 해�
 * `merge`를 사용하면 히스토리 볼때 뿌리가 여러개로 나눠져있어서 보기 어려움
 * `rebase`는 베이스를 정의함으로써 새롭게 커밋 라인을 정리하여 히스토리를 깔끔하게 볼수 있게 해줌
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](<../.gitbook/assets/image (40).png>)
 
 위와 같은 상황에서 `feature/test`를 `develop`으로 `merge`를 하려고 할 때, `merge`대신 `rebase`를 한다.
 
-1. `feature/test`로 `checkout`  \(git checkout feature/test\)
+1. `feature/test`로 `checkout`  (git checkout feature/test)
 2. `git rebase develop`
    * gitkraken : rebase feature/test onto develop
-   * sourcetree : develop\(으\)로 현재 바뀐 내용 재배치
+   * sourcetree : develop(으)로 현재 바뀐 내용 재배치
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](<../.gitbook/assets/image (41).png>)
 
-1. `develop`으 `checkout` \(git checkout develop\)
+1. `develop`으 `checkout` (git checkout develop)
 2. `git merge feature/test`
    * gitkraken : fast-forward develop into feature/test
    * sourcetree : Merge feature/test into develop
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](<../.gitbook/assets/image (43).png>)
 
 ## Commit message 수정하기
 
@@ -85,4 +85,3 @@ reset기능은 혼자만 사용하는 branch 이거나, 다른 사람들이 해�
 
 * `git commit --amend -m "수정할 메시지"`
 * `git push -f`
-

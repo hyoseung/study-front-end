@@ -56,5 +56,4 @@
 
 ## 출처
 
-* [버미노트 \| 2018. 11. 20. 00:36 \| \[Vue.JS\] 조건부 렌더링](https://beomy.tistory.com/51)
-
+* [버미노트 | 2018. 11. 20. 00:36 | \[Vue.JS\] 조건부 렌더링](https://beomy.tistory.com/51)

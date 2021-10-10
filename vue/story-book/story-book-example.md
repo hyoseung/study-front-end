@@ -102,9 +102,8 @@ FirstStory.args = {
 
 ### storybook
 
-![&#xCCAB; &#xD654;&#xBA74;](../../.gitbook/assets/image%20%2819%29.png)
+![첫 화면](<../../.gitbook/assets/image (35).png>)
 
-![&quot;click&quot;&#xBC84;&#xD2BC; &#xD074;&#xB9AD; &#xD6C4; &amp;gt; Dialog &#xBCF4;&#xC5EC;&#xC9D0;](../../.gitbook/assets/image%20%2822%29.png)
+!["click"버튼 클릭 후 > Dialog 보여짐](<../../.gitbook/assets/image (36).png>)
 
-![Dialog&#xC5D0; &quot;&#xD655;&#xC778;&quot;&#xBC84;&#xD2BC; &#xD074;&#xB9AD;](../../.gitbook/assets/image%20%2820%29.png)
-
+![Dialog에 "확인"버튼 클릭](<../../.gitbook/assets/image (37).png>)

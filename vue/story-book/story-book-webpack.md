@@ -22,8 +22,8 @@ module.exports = {
 }
 ```
 
-* \_\_dirname : 현재 실행 중인 폴더 경로
-* \_\_filename : 현재 실행 중인 파일 경로
+* \__dirname : 현재 실행 중인 폴더 경로
+* \__filename : 현재 실행 중인 파일 경로
 
 ## scss 파일 지원
 
@@ -48,10 +48,9 @@ module.exports = {
 
 ## 출처
 
-* [캡틴.JS \| 2020. 3. 23. 13:04 \| \[vue.js\] storybook absolute path 설정](https://avengersrhydon1121.tistory.com/276)
-* [Storybook 공식 사이 &gt; webpack config 수정](https://storybook.js.org/docs/vue/configure/webpack#extending-storybooks-webpack-config)
+* [캡틴.JS | 2020. 3. 23. 13:04 | \[vue.js\] storybook absolute path 설정](https://avengersrhydon1121.tistory.com/276)
+* [Storybook 공식 사이 > webpack config 수정](https://storybook.js.org/docs/vue/configure/webpack#extending-storybooks-webpack-config)
 
 
 
-
-
+

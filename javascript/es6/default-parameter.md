@@ -1,4 +1,4 @@
-# 기본 파라미터 \(Default Parameter\)
+# 기본 파라미터 (Default Parameter)
 
 ## ES5
 
@@ -21,4 +21,3 @@ function number(a, b=2, c=3) {
 
 number(1); // 1 2 3
 ```
-

@@ -21,9 +21,9 @@
 * IOS : Objectivs-C, Swift
 * Android : Java, Kotlin
 
-## Hybrid Application <a id="hybrid-application"></a>
+## Hybrid Application <a href="hybrid-application" id="hybrid-application"></a>
 
-하이브리드 앱\(웹앱\)은 웹 개발 방식으로 모바일 UI를 제작한 후 아이폰/안드로이드 웹뷰로 패키징하여 앱스토어에 출시하는 방식이고 적은 비용으로 빠르게 개발할 수 있음
+하이브리드 앱(웹앱)은 웹 개발 방식으로 모바일 UI를 제작한 후 아이폰/안드로이드 웹뷰로 패키징하여 앱스토어에 출시하는 방식이고 적은 비용으로 빠르게 개발할 수 있음
 
 ### 장점
 
@@ -39,7 +39,7 @@
 
 * 구글 플레이스토어 정책 이슈
 
-```text
+```
 메뉴들에 웹사이트 URL만 연결해서 제작한 경우, 유튜브 외부 영상 링크만 연결된 앱은 심사가 거절됩니다.
 웹뷰 앱은 사업자등록 인증을 통해서 본인 혹은 회사 홈페이지를 인증하면 되나 
 관계가 없는 외부 웹사이트만 넣어서 제작한 앱은 웹뷰앱 정책 위반 사유가 됩니다.
@@ -47,7 +47,7 @@
 
 * 애플 앱스토어 정책 이슈
 
-```text
+```
 모든 사용자가 제한 없이 이용할 수 있는 앱이 아닌 특정 회사의 내부 용도로 사용하도록 제작된 앱은 앱스토어 출시가 제한된다고 합니다.
 웹사이트(홈페이지 등)를 앱에 걸어서 제작하는 웹뷰 전용 앱은
 앱스토어 심사에서 "웹 브라우징과 다름이 없는 앱은 앱스토어 출시 승인이 어렵다"라는 리젝의 결과가 나온다(연구원마다 주관적인 요소가 많아서 심사 기준이 달라집니다)
@@ -59,7 +59,7 @@
 * IONIC
 * Adobe PhoneGap
 
-## Cross-Platform Application <a id="cross-platform-application"></a>
+## Cross-Platform Application <a href="cross-platform-application" id="cross-platform-application"></a>
 
 * 한 가지의 개발 언어와 프레임워크로 IOS/Android 양쪽 앱스토어에 출시할 수 있음
 
@@ -89,9 +89,9 @@
 
 #### Xamarin
 
-C\#으로 작성하여 이를 IOS/Android가 이해할 수 있는 IL\(Intermeidate Language\)로 컴파일
+C#으로 작성하여 이를 IOS/Android가 이해할 수 있는 IL(Intermeidate Language)로 컴파일
 
-## PWA \(Progressive Web Application\)
+## PWA (Progressive Web Application)
 
 * Google I/O 2016에서 구글은 PWA라는 신기술을 소개함
 * 어러가지 있던 기능이나 이론을 조합하여 앱과 웹의 장점을 합친 것으로 볼 수 있음
@@ -102,20 +102,18 @@ C\#으로 작성하여 이를 IOS/Android가 이해할 수 있는 IL\(Intermeida
 * 즐겨찾기 기능을 통해서 아이콘 설정이 되어 앱이 설치 되는 기능을 함.
 * 네이티브 앱 같이 홈 스크린에서 스플래쉬 스크린을 통해서 실행가능함
 * 최신 데이터와 백그라운드 동기화된 데이터 모두 다 사용 가능.
-* 오프라인 상태에서도 실행이 가능함.
+*   오프라인 상태에서도 실행이 가능함.
 
-  * PWA가 캐싱이 되기 때문에 Offline이거나 속도가 느린 상태에서도 미리 다운로드 되어 있는 정보를 계속 볼 수 있음
+    * PWA가 캐싱이 되기 때문에 Offline이거나 속도가 느린 상태에서도 미리 다운로드 되어 있는 정보를 계속 볼 수 있음
 
 
-
-* 네이티브 앱 과 같이 설치\(캐쉬\) 된 파일과 캐쉬 된 데이터를 사용 가능함.
+* 네이티브 앱 과 같이 설치(캐쉬) 된 파일과 캐쉬 된 데이터를 사용 가능함.
 * 네이티브 앱과 같이 빠른 사용자 경험을 제공
-* 구글 등에서 검색이 가능하도록 최적화도 가능 \(서버사이드 렌더링을 제공해 SEO에 최적\)
+* 구글 등에서 검색이 가능하도록 최적화도 가능 (서버사이드 렌더링을 제공해 SEO에 최적)
 * 위치기능 지원, 푸시알람과 홈스크린에 접근 가능함.
 
 ## 출처
 
-* [dear\_sopi9211 \| 2021년 3월 12일 \| 앱 개발 방법의 장단점과 PWA](https://velog.io/@dear_sopi9211/%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EA%B3%BC-PWA)
-* [newbizstart \| 2020-08-13 \| 네이티브 앱 VS 하이브리드 앱](https://newbizstart.com/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EC%95%B1%EA%B3%BC-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%EC%95%B1-%EB%B9%84%EA%B5%90/)
-* [Astrid or DM Astrid\_DM \| 2020.10.7 17:30 \| 하이브리드 앱, 크로스 플랫폼 앱, 그리고 네이티브 앱](https://astrid-dm.tistory.com/219)
-
+* [dear_sopi9211 | 2021년 3월 12일 | 앱 개발 방법의 장단점과 PWA](https://velog.io/@dear_sopi9211/%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95%EC%9D%98-%EC%9E%A5%EB%8B%A8%EC%A0%90%EA%B3%BC-PWA)
+* [newbizstart | 2020-08-13 | 네이티브 앱 VS 하이브리드 앱](https://newbizstart.com/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EC%95%B1%EA%B3%BC-%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%EC%95%B1-%EB%B9%84%EA%B5%90/)
+* [Astrid or DM Astrid_DM | 2020.10.7 17:30 | 하이브리드 앱, 크로스 플랫폼 앱, 그리고 네이티브 앱](https://astrid-dm.tistory.com/219)

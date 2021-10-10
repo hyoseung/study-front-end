@@ -1,4 +1,4 @@
-# 모듈 \(Module\)
+# 모듈 (Module)
 
 * 기존의 자바스크립트에서는 모듈화를 통한 분리가 불가능했음
 * ES6부터는 `export`, `import` 키워드로 모듈화 구현이 가능하게 됨
@@ -90,4 +90,3 @@ model.sum(1,2)
 import sum from './module.js';
 import sum, { name, age } from './module.js';
 ```
-

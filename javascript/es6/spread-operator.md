@@ -1,4 +1,4 @@
-# 전개 연산자 \(spread operator\)
+# 전개 연산자 (spread operator)
 
 ## ES5
 
@@ -40,7 +40,7 @@ console.log(result); // [ 3, 2, 1 ]
 ```
 
 * 전개 연산자 사용
-  * number와 result는 서로 다른 주소값을 참조하고 있음 \(서로 다른 객체\)
+  * number와 result는 서로 다른 주소값을 참조하고 있음 (서로 다른 객체)
 
 ```javascript
 let number = [1,2,3];
@@ -52,7 +52,7 @@ console.log(number); // [ 1, 2, 3 ]
 console.log(result); // [ 3, 2, 1 ]
 ```
 
-### 비구조화 할당 \(구조분해할당\)
+### 비구조화 할당 (구조분해할당)
 
 ```javascript
 let number = [1,2,3,4,5];
@@ -63,4 +63,3 @@ console.log(a); // 1
 console.log(b); // 2
 console.log(rest); // [3, 4, 5]
 ```
-

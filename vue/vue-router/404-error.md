@@ -2,7 +2,7 @@
 
 ## 상황
 
-![&#xC5D0;&#xB7EC;](../../.gitbook/assets/vueroutererror.png)
+![에러](../../.gitbook/assets/vueroutererror.PNG)
 
 * Vue-router 를 사용하여 front 개발
 * nginx나 apache 같은 웹서버 배포
@@ -58,5 +58,4 @@ location / {
 ## 출처
 
 * [Vue Router 공식문서](https://router.vuejs.org/kr/guide/essentials/history-mode.html#%E1%84%89%E1%85%A5%E1%84%87%E1%85%A5-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC-%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%A6)
-* [초보개발자 깡냉스 \| 2020. 7. 23. 22:43 \| 뷰\(Vue\) nginx 서버 설정](https://cornswrold.tistory.com/439)
-
+* [초보개발자 깡냉스 | 2020. 7. 23. 22:43 | 뷰(Vue) nginx 서버 설정](https://cornswrold.tistory.com/439)

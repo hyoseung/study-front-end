@@ -2,7 +2,7 @@
 
 ## 폴더 구조
 
-![](../../../.gitbook/assets/image.png)
+![](<../../../.gitbook/assets/image (26).png>)
 
 ## Define Models
 
@@ -45,7 +45,7 @@ export default class Order extends Model {
 
 ## Register Models to Vuex
 
-store &gt; index.js
+store > index.js
 
 ```javascript
 import Vue from 'vue'
@@ -70,6 +70,4 @@ export default new Vuex.Store({
 })
 
 ```
-
-
 

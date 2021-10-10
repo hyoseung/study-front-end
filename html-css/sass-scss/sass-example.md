@@ -2,13 +2,13 @@
 
 ## sass 설치
 
-```text
+```
 npm insatll -g sass
 ```
 
-## sass -&gt; css로 컴파일
+## sass -> css로 컴파일
 
-```text
+```
 sass test.scss test.css
 ```
 
@@ -62,4 +62,3 @@ sass test.scss test.css
 	}
 }
 ```
-

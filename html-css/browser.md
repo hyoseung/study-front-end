@@ -2,21 +2,21 @@
 
 ## 동작 원리
 
-![&#xC911;&#xC694; &#xB80C;&#xB354;&#xB9C1; &#xACBD;&#xB85C;\(Critical Rendering Path\)](https://lh6.googleusercontent.com/D3ySuowu9dZxfmBZSb4wjUb-tu_hChhuz_TJmQUVscKbN9ne3va-wqSOg4ZYQ_uf4SeJwxb7JLSzGYT4le6kPxEXSn5LQTUq_WUQAaVAxnoBtznoGuwkwzLGnNGLDa5SMU1lV_RT)
+![중요 렌더링 경로(Critical Rendering Path)](https://lh6.googleusercontent.com/D3ySuowu9dZxfmBZSb4wjUb-tu_hChhuz_TJmQUVscKbN9ne3va-wqSOg4ZYQ_uf4SeJwxb7JLSzGYT4le6kPxEXSn5LQTUq_WUQAaVAxnoBtznoGuwkwzLGnNGLDa5SMU1lV_RT)
 
 1. HTML을 파싱한다.
 2. HTML 파싱 결과로 DOM tree를 생성한다.
 3. 파싱 중 CSS 링크를 만나면 CSS 파일을 요청해 받아온다.
-4. CSS 파일을 파싱해 CSSOM\(CSS Object Model\) tree를 생성한다.
-5. DOM과 CSSOM을 결합하면 Render tree를 생성한다. Render tree에는 페이지를 렌더링 하는데 필요한 노드만 포함한다. \(display: none 과 head태그 제외\)
-6.  Render tree 기반으로 각각의 화면의 어디에 위치할 것인지 그린다.
+4. CSS 파일을 파싱해 CSSOM(CSS Object Model) tree를 생성한다.
+5. DOM과 CSSOM을 결합하면 Render tree를 생성한다. Render tree에는 페이지를 렌더링 하는데 필요한 노드만 포함한다. (display: none 과 head태그 제외)
+6.   Render tree 기반으로 각각의 화면의 어디에 위치할 것인지 그린다.
 7. 픽셀을 화면에 paint 한다.
 
-### &lt;script&gt; 태그를 만날 경우
+### \<script> 태그를 만날 경우
 
-자바스크립트는 렌더링 엔진이 아닌 자바스크립트 엔진이 처리한다. HTML 파서는 &lt;script&gt; 태그를 만나면 자바스크립트 코드를 실행하기 위해 DOM 생성 프로세스를 중지하고 자바스크립트 엔진으로 제어 권한을 넘긴다. 제어 권한을 넘겨 받은 자바스크립트 엔진은 &lt;script&gt; 태그 내의 자바스크립트 코드 또는 &lt;script&gt; 태그의 src 어트리뷰트에 정의된 자바스크립트 파일을 로드하고 파싱하여 실행한다. 자바스크립트의 실행이 완료되면 다시 HTML 파서로 제어 권한을 넘겨서 브라우저가 중지했던 시점부터 DOM 생성을 재개한다.
+자바스크립트는 렌더링 엔진이 아닌 자바스크립트 엔진이 처리한다. HTML 파서는 \<script> 태그를 만나면 자바스크립트 코드를 실행하기 위해 DOM 생성 프로세스를 중지하고 자바스크립트 엔진으로 제어 권한을 넘긴다. 제어 권한을 넘겨 받은 자바스크립트 엔진은 \<script> 태그 내의 자바스크립트 코드 또는 \<script> 태그의 src 어트리뷰트에 정의된 자바스크립트 파일을 로드하고 파싱하여 실행한다. 자바스크립트의 실행이 완료되면 다시 HTML 파서로 제어 권한을 넘겨서 브라우저가 중지했던 시점부터 DOM 생성을 재개한다.
 
-동기적으로 HTML, CSS, Script를 처리하기 때문에 보통 &lt;script&gt; 태그는 body 요소의 가장 아래에 두거나, &lt;script&gt; 태그에 async 속성을 부여하는 것이 좋다.
+동기적으로 HTML, CSS, Script를 처리하기 때문에 보통 \<script> 태그는 body 요소의 가장 아래에 두거나, \<script> 태그에 async 속성을 부여하는 것이 좋다.
 
 ### 추가된 개념
 
@@ -28,9 +28,9 @@
 * Layer 로 분리해서 합치는 방식으로 렌더링한다.
 * Layer 는 빠르지만 메모리를 많이 사용한다.
 
-#### Composite
+#### &#xD;Composite
 
-* 레이어들을 합성하여 한장의 Bitmap으로 만드는 과정 \(이후 하나의 페이지를 생성\)
+* 레이어들을 합성하여 한장의 Bitmap으로 만드는 과정 (이후 하나의 페이지를 생성)
 * paint 는 Layer 별로 paint하며, Tiled backing store 기법을 사용함.
 
 ## **Reflow와 Repainting**
@@ -41,11 +41,11 @@
 
 #### reflow가 일어나는 경우
 
-* 페이지 초기 렌더링 시\(최초 Layout 과정\)
-* 윈도우 리사이즈 시 \(Viewport 크기 변경시\)
+* 페이지 초기 렌더링 시(최초 Layout 과정)
+* 윈도우 리사이즈 시 (Viewport 크기 변경시)
 * 노드 추가 또는 제거
-* 요소의 위치, 크기 변경 \(left, top, margin, padding, border, width, height, 등..\)
-* 폰트 변경 과\(텍스트 내용\) 이미지 크기 변경\(크기가 다른 이미지로 변경 시\)  ****
+* 요소의 위치, 크기 변경 (left, top, margin, padding, border, width, height, 등..)
+* 폰트 변경 과(텍스트 내용) 이미지 크기 변경(크기가 다른 이미지로 변경 시)**  **
 
 ### repainting
 
@@ -55,15 +55,14 @@ background-color, visibility와 같이 레이아웃에는 영향을 주지 않�
 
 ## **visibility vs hidden**
 
-| visibility: hidden | display: none |
-| :--- | :--- |
+| visibility: hidden                          | display: none                                      |
+| ------------------------------------------- | -------------------------------------------------- |
 | 요소를 보이지 않게 만들지만, 이 요소는 여전히 레이아웃에서 공간을 차지한다. | 요소가 보이지 않으며 레이아웃에 포함되지도 않도록 렌더링 트리에서 요소를 완전히 제거한다. |
 
 ## 출처
 
-* [Mariko Kosaka \| 모던 웹 브라우저 들여다보기 \(파트 3\)](https://developers.google.com/web/updates/2018/09/inside-browser-part3?hl=ko)
-* [Mina Choi \| 2020-02-25 \| 브라우저 동작 원리](https://mingcoder.me/2020/02/25/Programming/Basic/browser-process/)
-* [박스여우 \| 2019. 7. 30. 23:37 \| 브라우저 렌더링 과정 - Reflow Repaint, 그리고 성능 최적화](https://boxfoxs.tistory.com/408)
+* [Mariko Kosaka | 모던 웹 브라우저 들여다보기 (파트 3)](https://developers.google.com/web/updates/2018/09/inside-browser-part3?hl=ko)
+* [Mina Choi | 2020-02-25 | 브라우저 동작 원리](https://mingcoder.me/2020/02/25/Programming/Basic/browser-process/)
+*   [박스여우 | 2019. 7. 30. 23:37 | 브라우저 렌더링 과정 - Reflow Repaint, 그리고 성능 최적화](https://boxfoxs.tistory.com/408)
 
-
-
+

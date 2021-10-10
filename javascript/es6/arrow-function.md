@@ -1,4 +1,4 @@
-# 화살표 함수 \(Arrow Function\)
+# 화살표 함수 (Arrow Function)
 
 ## ES5
 
@@ -46,13 +46,13 @@ console.log(sum(1, 2)); // 3
 
 대부분의 this의 값은 함수를 호출한 방법이 결정
 
-| 상황 | this |
-| :--- | :--- |
-| global scope | 전역 객체 \(Window 객체\) |
-| 함수 | 전역 객체 \(Window 객체\) |
-| 객체에 속한 메소드 | 메소드가 속한 객체 |
-| 객체에 속한 메소드의 내부함수 | 전역 객체 \(Window 객체\) |
-| 생성자 | 생성자로 인해 생성된 새로운 객체 |
+| 상황               | this               |
+| ---------------- | ------------------ |
+| global scope     | 전역 객체 (Window 객체)  |
+| 함수               | 전역 객체 (Window 객체)  |
+| 객체에 속한 메소드       | 메소드가 속한 객체         |
+| 객체에 속한 메소드의 내부함수 | 전역 객체 (Window 객체)  |
+| 생성자              | 생성자로 인해 생성된 새로운 객체 |
 
 > * 함수 : 자바스크립트 내장 객체인 Function 생성자로 생성된 객체
 > * 메소드 : Function 내장 객체로 생성된 함수가 객체의 프로퍼티가 될 때
@@ -131,28 +131,27 @@ account.getBalance(); //홍길동님의 잔액은 10000입니다.
 
 ## Vue
 
-### `method` 정의할 때는 `function` 문법 함수 사용 \(화살표함수 X\)
+### `method` 정의할 때는 `function` 문법 함수 사용 (화살표함수 X)
 
 * Vue comoponent에서 method 정의할 때 일반 함수 선언을 해줘야함
 * `this`는 `VueComponent`를 가리킴
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](<../../.gitbook/assets/image (12).png>)
 
-![console.log\(this\)](../../.gitbook/assets/image%20%2811%29.png)
+![console.log(this)](<../../.gitbook/assets/image (11).png>)
 
 * 화살표 함수를 사용하게 될 경우 `this`는 `undefined`
 
-![&#xD654;&#xC0B4;&#xD45C; &#xD568;&#xC218; &#xC0AC;&#xC6A9;](../../.gitbook/assets/image%20%2816%29.png)
+![화살표 함수 사용](<../../.gitbook/assets/image (16).png>)
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](<../../.gitbook/assets/image (13).png>)
 
 ### `axios`의 `then`, `catch`, `finally`는 화살표 함수 사용
 
 * 화살표 함수를 사용하지 않을 경우, `then` 내부에서 `this`는 `undefined` 이므로 `VueComponent`를 가리키는 변수를 선언해줘야함
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](<../../.gitbook/assets/image (14).png>)
 
 * 화살표 함수를 사용하면 `then` 내부에 `this`는 `VueComponent`를 가리킴
 
-![](../../.gitbook/assets/image%20%2815%29.png)
-
+![](<../../.gitbook/assets/image (15).png>)

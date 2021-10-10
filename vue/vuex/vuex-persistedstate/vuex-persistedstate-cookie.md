@@ -4,7 +4,7 @@
 
 기본적으로 localStorage를 사용하지만 cookie에 저장하고 싶을 경우 아래와 같이 설정한다.
 
-```text
+```
 yarn add js-cookie
 ```
 
@@ -30,4 +30,3 @@ const store = new Store({
   ],
 });
 ```
-

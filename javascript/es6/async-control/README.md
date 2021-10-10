@@ -18,7 +18,7 @@ getData(function(result) {
 });
 ```
 
-### Callback hell \(콜백지옥\)
+### Callback hell (콜백지옥)
 
 * 콜백 함수를 익명 함수로 전달하는 과정이 반복되어 코드의 들여쓰기 수준이 감당하기 힘들정도로 깊어지는 현상
 * 주로 이벤트 처리나 서버 통신과 같은 비동기적인 작업을 수행하기 위해 이런 형태가 자주 등장하는데, 가독성이 떨어지면서 코드를 수정하기 어렵움
@@ -65,8 +65,8 @@ setTimeout(
 #### 해결 방법
 
 * 기명함수
-* `Promise` -&gt; ES6
-* `async & await` -&gt; ES8
+* `Promise` -> ES6
+* `async & await` -> ES8
 
 기명함수 예시
 
@@ -126,7 +126,7 @@ getData().then(function(result) {
 * 3가지 상태란 Promise의 처리과정을 의미
 * `new Promise()` 로 Promise를 생성하고 종료될 때까지 3가지 상태를 갖는다
 
-#### Pending \(대기\)
+#### Pending (대기)
 
 * 비동기 처리 로직이 아직 완료되지 않은 상태
 * `new Promise()` 메서드를 호출하면 `대기(Pending)` 상태가 됨
@@ -139,7 +139,7 @@ new Promise(function(resolve, reject) {
 });
 ```
 
-#### Fulfilled \(이행\)
+#### Fulfilled (이행)
 
 * 비동기 처리가 완료되어 Promise 결과 값을 반환해준 상태
 * 콜백함수의 인자 `resolve`를 호출하면 `이행(Fulfilled)` 상태가 됨
@@ -159,7 +159,7 @@ getData().then(function(resolvedData) {
 });
 ```
 
-#### Rejected \(실패\)
+#### Rejected (실패)
 
 * 비동기 처리가 실패하거나 오류가 발생한 상태
 * 콜백함수의 인자 `reject`를 호출하면 `실패(Rejected)` 상태가 됨
@@ -178,7 +178,7 @@ getData().then().catch(function(err) {
 });
 ```
 
-![](../../../.gitbook/assets/image%20%2817%29.png)
+![](<../../../.gitbook/assets/image (17).png>)
 
 ### Promise 사용 예
 
@@ -223,7 +223,7 @@ new Promise(function(resolve, reject){
 
 ### Promise 에러 처리
 
-#### `catch()`를 이용하는 방법 \(이 방법 사용하기!\)
+#### `catch()`를 이용하는 방법 (이 방법 사용하기!)
 
 ```javascript
 getData().then().catch();
@@ -326,8 +326,7 @@ async function logTodoTitle() {
 
 ## 참고
 
-* [captain pangyo \| 자바스크립트 비동기 처리와 콜백 함수](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/)
-* [captain pangyo \| 자바스크립트 Promise 쉽게 이해하기](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
-* [captain pangyo \| 자바스크립트 async와 await](https://joshua1988.github.io/web-development/javascript/js-async-await/)
-* [yujo \| 2020년 8월 31일 \| \[JS\]콜백 지옥 탈출하기](https://velog.io/@yujo/JS%EC%BD%9C%EB%B0%B1-%EC%A7%80%EC%98%A5%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%A0%9C%EC%96%B4)
-
+* [captain pangyo | 자바스크립트 비동기 처리와 콜백 함수](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/)
+* [captain pangyo | 자바스크립트 Promise 쉽게 이해하기](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
+* [captain pangyo | 자바스크립트 async와 await](https://joshua1988.github.io/web-development/javascript/js-async-await/)
+* [yujo | 2020년 8월 31일 | \[JS\]콜백 지옥 탈출하기](https://velog.io/@yujo/JS%EC%BD%9C%EB%B0%B1-%EC%A7%80%EC%98%A5%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%A0%9C%EC%96%B4)

@@ -6,12 +6,11 @@ Vuex ORM is a plugin for Vuex to enable Object-Relational Mapping access to the 
 
 ## 설치
 
-```text
+```
 yarn add @vuex-orm/core
 ```
 
 ## 출처
 
-* 공식문서 : [https://vuex-orm.org/](https://vuex-orm.org/)
+* 공식문서 : [https://vuex-orm.org/](https://vuex-orm.org)
 * git: [https://github.com/vuex-orm/vuex-orm](https://github.com/vuex-orm/vuex-orm)
-

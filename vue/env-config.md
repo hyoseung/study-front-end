@@ -21,7 +21,7 @@
 
 #### 사용자 정의 모드
 
-* vue-cli-service serve --mode \[사용자 정의 모드명\]
+* vue-cli-service serve --mode \[사용자 정의 모드명]
 
 ```javascript
 // package.json
@@ -42,13 +42,13 @@
 
 ### 기본 제공 환경변수
 
-#### NODE\_ENV
+#### NODE_ENV
 
 * 앱이 실행되는 모드
 * 기본 모드 : `development`, `production`, `test`
 * 사용자 정의 모드 추가 가능
 
-#### BASE\_URL
+#### BASE_URL
 
 * vue.config.js의 publicPath 옵션에 해당
 * 앱이 배포되는 기본 경로
@@ -119,10 +119,9 @@ VUE_APP_COMMON_TEST = "common test"
 
 `console.log(process.env);` 로 호출해본 결과
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](<../.gitbook/assets/image (34).png>)
 
 ## 출처
 
-* vue.config.js : [https://cli.vuejs.org/config/\#global-cli-config](https://cli.vuejs.org/config/#global-cli-config)
-* [skyepodium \| 2020년 4월 15일 \| vue 실행모드와 환경변수 설정](https://velog.io/@skyepodium/vue-%EC%8B%A4%ED%96%89-%EB%AA%A8%EB%93%9C%EC%99%80-%ED%99%98%EA%B2%BD-%EB%B3%80%EC%88%98-%EC%84%A4%EC%A0%95)
-
+* vue.config.js : [https://cli.vuejs.org/config/#global-cli-config](https://cli.vuejs.org/config/#global-cli-config)
+* [skyepodium | 2020년 4월 15일 | vue 실행모드와 환경변수 설정](https://velog.io/@skyepodium/vue-%EC%8B%A4%ED%96%89-%EB%AA%A8%EB%93%9C%EC%99%80-%ED%99%98%EA%B2%BD-%EB%B3%80%EC%88%98-%EC%84%A4%EC%A0%95)

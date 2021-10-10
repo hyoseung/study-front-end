@@ -1,7 +1,6 @@
 ---
-description: 'vuex-persistedstate, js-cookie를 이용한 개발과 이슈 공유'
+description: vuex-persistedstate, js-cookie를 이용한 개발과 이슈 공유
 ---
-
 # 예제
 
 ## 코드
@@ -82,8 +81,9 @@ export default {
 #### `paths`
 
 * paths를 지정하지 않으면 vuex에 설정된 state가 모두 저장됨
-* 만약 특정 모듈만 저장하고 싶을 때 paths에 모듈명을 적어야함 ex\) `paths: ['login']`
-* 모듈의 특정 state만 cookie에 저장하고 싶을 경우 `모듈명.state명` 으로 적어야함  ex\) `paths: ['login.user']`
+* 만약 특정 모듈만 저장하고 싶을 때 paths에 모듈명을 적어야함 ex) `paths: ['login']`
+* 모듈의 특정 state만 cookie에 저장하고 싶을 경우 `모듈명.state명` 으로 적어야함 \
+  ex) `paths: ['login.user']`
 
 #### `storage`
 
@@ -140,4 +140,3 @@ export default new Vuex.Store({
 });
 
 ```
-

@@ -2,7 +2,7 @@
 
 ## vuex plugin 설정
 
-### vuex-persistedstate 3.x \(for Vuex 3 and Vue 2\)
+### vuex-persistedstate 3.x (for Vuex 3 and Vue 2)
 
 ```javascript
 // store/index.js
@@ -16,7 +16,7 @@ const store = new Vuex.Store({
 });
 ```
 
-### vuex-persistedstate 4.x \(for Vuex 4 and Vue 3\)
+### vuex-persistedstate 4.x (for Vuex 4 and Vue 3)
 
 ```javascript
 // store/index.js
@@ -34,7 +34,5 @@ const store = createStore({
 
 ### `createPersistedState([options])`
 
-{% embed url="https://github.com/robinvdvleuten/vuex-persistedstate\#api" %}
-
-
+{% embed url="https://github.com/robinvdvleuten/vuex-persistedstate#api" %}
 

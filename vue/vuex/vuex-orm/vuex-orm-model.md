@@ -57,7 +57,7 @@ export default class Test extends Model {
 ### Primitive Types
 
 *  `this.string()`, `this.number()`, `this.boolean()` 사용 가능
-* null을 허용하고 싶을때는 .nullable\(\)
+* null을 허용하고 싶을때는 .nullable()
 
 ```javascript
 import { Model } from '@vuex-orm/core'
@@ -74,7 +74,7 @@ export default class Test extends Model {
 
 ### UID Type
 
-* `this.uid()` 고유 ID를 생성 \(문자열\)
+* `this.uid()` 고유 ID를 생성 (문자열)
 
 ```javascript
 import { Model } from '@vuex-orm/core'
@@ -109,4 +109,3 @@ export default class Test extends Model {
   }
 }
 ```
-

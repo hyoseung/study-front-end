@@ -1,4 +1,4 @@
-# 향상된 객체 리터럴 \(enhanced object literals\)
+# 향상된 객체 리터럴 (enhanced object literals)
 
 ## ES5
 
@@ -64,4 +64,3 @@ export default {
   }
 }
 ```
-
