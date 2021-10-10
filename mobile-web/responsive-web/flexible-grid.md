@@ -166,21 +166,14 @@ rem 단위 웹 문서의 시작인 \<html>\</html> 태그 기준으로 하기 �
 
 ```css
 <style>
-...
 img, video {
   width: 100%;
   max-width: 100%;
 }
-...
 </style>
-<body>
-  <video>
-    <source src="~.mp4" type="video/map4"></source>
-  </video>
-</body>
 ```
 
-##
+###
 
 ## 출처
 
