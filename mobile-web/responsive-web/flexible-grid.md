@@ -41,6 +41,10 @@
 </div>
 ```
 
+{% hint style="info" %}
+disa
+{% endhint %}
+
 ### 가변 패딩
 
 가변 패딩은 가변 마진과 달리 박스 width에 포함되어 있음
