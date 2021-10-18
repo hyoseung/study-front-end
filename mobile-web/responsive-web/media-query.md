@@ -7,6 +7,14 @@
 
 > @media \[only 또는 not] \[미디어 유형] \[and 또는 ,] (조건문) {실행문}
 
+![](<../../.gitbook/assets/image (44).png>)
+
+```css
+HTML과 CSS 파일을 별도로 관리하므로 불러오는 속도도 빠르고, 관리면에서도 효율적
+
+<link rel="stylesheet" href="xxx.css">
+```
+
 {% hint style="info" %}
 * 대소문자 구별안함
 * IE 6,7,8 버전에서는 미디어 쿼리 지원 안함
@@ -35,6 +43,28 @@
 | embossed, braille           | 점자 인쇄 장치, 점자 표시 장치             |
 | tty                         | 디스플레이 기능이 제한된 장치               |
 
+### \[and 또는 , 콤마]
+
+> @media A and B{실행문}
+>
+> @media A, B{실행문}
+
+### (조건문)
+
+and나 콤마를 이용하여 두가지 이상 작성할 수 있음. 생략도 가능
+
+![](<../../.gitbook/assets/image (45).png>)
+
+* 각각의 해상도 사이즈 알기 :  [https://css-tricks.com/snippets/css/media-queries-for-standard-devices/](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+* 기기별 쉽게 보기 : [http://nmsdvid.com/snippets/](http://nmsdvid.com/snippets/)
+
+### {실행문}
+
+css 코드 작성
+
+> @media {실행문}
+
 ## 출처
 
 * Do it! 반응형 웹 페이지 만들기 | 김운아 | 이지스퍼블리싱
+* [강인규 블로그 | 2017-12-06 | 미디어 쿼리 (Media Queries)](https://innks.github.io/2017/12/06/css/Media-Queries/)
