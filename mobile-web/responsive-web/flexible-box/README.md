@@ -28,9 +28,10 @@
 
 축에 시작과 끝이 존재하는 이유는 플렉스 아이템이 처음 배치되는 위치(시작점)와 플렉스 아이템이 마지막에 배치될 위치(끝점)가 필요하기 때문
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../../.gitbook/assets/image (44) (1).png>)
 
 ## 출처
 
 * Do it! 반응형 웹 페이지 만들기 | 김운아 | 이지스퍼블리싱
 * [Using U | CSS Flexbox Layout](https://usingu.co.kr/references/css/flexbox-layout/)
+* [HEROPY Tech | 2018.09 | CSS Flex(Flexible Box) 완벽가이드](https://heropy.blog/2018/11/24/css-flexible-box/)

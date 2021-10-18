@@ -7,7 +7,7 @@
 
 > @media \[only 또는 not] \[미디어 유형] \[and 또는 ,] (조건문) {실행문}
 
-![](<../../.gitbook/assets/image (44) (1).png>)
+![](<../../.gitbook/assets/image (44) (1) (1).png>)
 
 ```css
 HTML과 CSS 파일을 별도로 관리하므로 불러오는 속도도 빠르고, 관리면에서도 효율적
