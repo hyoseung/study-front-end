@@ -131,7 +131,31 @@ flex-wrap의 속성에 의해 여러 줄이 발생 했을 때 적용
 
 align-item과 동시에 지정하였을 때 align-content과 우선
 
-> #### stretch (기본)\_
+> #### stretch (기본값)
+>
+> * container의 교차축을 채우기 위해 items을 늘림
+>
+> #### flex-start
+>
+> * items을 주축의 시작점으로 정렬
+>
+> #### flex-end
+>
+> * items을 주축의 끝점으로 정렬
+>
+> #### center
+>
+> * items을 가운데 정렬
+>
+> #### space-between
+>
+> * 시작 item은 시작점에, 마지막 item은 끝점에 정렬, 나머지는 동일한 간격으로 정렬
+> * Flex Container에 빈 공간이 있을 때 사용 
+>
+> #### space-around
+>
+> * itmes를 균등한 여백을 포함하여 정렬
+> * Flex Container에 빈 공간이 있을 때 사용
 
 ```css
 .flex-container{
@@ -141,7 +165,53 @@ align-item과 동시에 지정하였을 때 align-content과 우선
 
 ### align-items
 
+flex-wrap의 속성에 의해 여러 줄이 발생 했을 때 적용
+
+align-item과 동시에 지정하였을 때 align-content과 우선
+
+> #### stretch (기본값)
+>
+> * container의 교차축을 채우기 위해 items을 늘림
+>
+> #### flex-start
+>
+> * items을 교차축의 시작점으로 정렬
+>
+> #### flex-end
+>
+> * items을 교차축의 끝점으로 정렬
+>
+> #### center
+>
+> * items을 교차축의 중앙에 정렬
+>
+> #### baseline
+>
+> * items을 문자 기준선에 정렬
+
+```css
+.flex-container{
+  align-items: stretch | flex-start | flex-end | center | baseline ;
+}
+```
+
 ## Flex Item
+
+* flex item에 지정된 float 속성을 무시
+* position:absolute 또는 position:fixed 속성이 설정되면 flex item에서 제외
+* flex item은 형제 또는 부모의 수직 /수평 margin 속성이 중첩되지 않음
+
+### order
+
+
+
+### flex
+
+
+
+### align-self
+
+
 
 ## 출처
 
