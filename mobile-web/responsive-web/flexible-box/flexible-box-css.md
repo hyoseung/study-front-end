@@ -316,17 +316,45 @@ flex item의 기본 크기를 지정
 
 `flex-direction: row` 일 경우 flex-basis는 너비가 되고, `flex-direction: column` 일 경우 flex-basis는 높이가 됨
 
+* flex item에 width도 flex-basis도 지정되지 않으면 flex item의 내용물 크기만큼 공간을 차지
+* flex item에 width가 지정되고, flex-basis가 auto로 지정되면 width 크기를 따름
+* flex-basis값과 width 값을 서로 다르게 지정한다면 flex-basis 속성이 우선순위를 갖음
+
 > #### content
+>
+> * flex item의 내용 크기에 따라 자동으로 크기가 변함
 >
 > #### \<width>
 >
-> * d
+> * length 또는 flex container 크기에 상대적인 percentage, auto 키워드 중 하나를 설정함
 >
 > #### auto (기본값)
 >
->
+> * width/height 속성을 따름
+
+```css
+.flex-item{
+  flex-basis: content | <width> | auto ;
+}
+```
 
 ### flex
+
+Item의 너비(증가, 감소, 기본)를 설정하는 단축 속성
+
+> #### \[flex-grow] \[flex-shrink] \[flex-basis]
+>
+> * 0 1 auto (기본값)
+> * 0 auto (0 1 auto)
+> * initial (0 1 auto)
+> * auto (1 1 auto, flex container 크기에 맞춰서 flex item의 크기가 조절됨)
+> * none (0 0 auto, 크기가 고정되어야하는 flex item에 지정)
+
+```css
+.flex-item{
+  flex:flex-grow flex-shrink flex-basis;
+}
+```
 
 ## 출처
 
