@@ -207,7 +207,7 @@ Flex Item의 순서를 재배치 함
 
 order값을 기본으로 오름차순으로 배치됨, 순서가 동일하면 소스코드 기준로 정해짐
 
-> 0 (기본값)
+> #### 0 (기본값)
 >
 > 정수값을 이용하여 지정 (0, 양수, 음수)
 
@@ -310,37 +310,3 @@ flex container의 공간이 부족할 때 flex item의 크기를 줄이는 방�
 }
 ```
 
-### flex-basis
-
-flext itemfddddd
-
-속성값은 비율로 설정, 음수값은 사용할 수 없음
-
->
-
-```css
-.flex-item{
-  flex-grow:number;
-}
-```
-
-### flex
-
-flex container에 여백이 있을 때 flex item의 크기를 늘일 수 있는 속성 (확장여부 결정)
-
-속성값은 비율로 설정, 음수값은 사용할 수 없음
-
->
-
-```css
-.flex-item{
-  flex-grow:number;
-}
-```
-
-## 출처
-
-* Do it! 반응형 웹 페이지 만들기 | 김운아 | 이지스퍼블리싱
-* [Using U | CSS Flexbox Layout](https://usingu.co.kr/references/css/flexbox-layout/)
-* [HEROPY Tech | 2018.09 | CSS Flex(Flexible Box) 완벽가이드](https://heropy.blog/2018/11/24/css-flexible-box/)
-* [MDN Web Docs | flexbox의 기본 개념](https://developer.mozilla.org/ko/docs/Web/CSS/CSS\_Flexible\_Box\_Layout/Basic\_Concepts\_of\_Flexbox)
