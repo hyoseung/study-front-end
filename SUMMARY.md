@@ -54,7 +54,7 @@
     * [미디어 쿼리](mobile-web/responsive-web/media-query.md)
     * [뷰포트](mobile-web/responsive-web/viewport.md)
     * [플렉서블 박스](mobile-web/responsive-web/flexible-box/README.md)
-      * [플렉서블 박스 속성](mobile-web/responsive-web/flexible-box/undefined.md)
+      * [플렉서블 박스 속성](mobile-web/responsive-web/flexible-box/flexible-box-css.md)
 * [Git](git/README.md)
   * [명령어](git/git-command.md)
 * [Package Manager](package-manager.md)
