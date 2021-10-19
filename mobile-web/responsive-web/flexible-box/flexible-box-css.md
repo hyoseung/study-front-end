@@ -312,6 +312,20 @@ flex container의 공간이 부족할 때 flex item의 크기를 줄이는 방�
 
 ### flex-basis
 
+flex item의 기본 크기를 지정
+
+`flex-direction: row` 일 경우 flex-basis는 너비가 되고, `flex-direction: column` 일 경우 flex-basis는 높이가 됨
+
+> #### content
+>
+> #### \<width>
+>
+> * d
+>
+> #### auto (기본값)
+>
+>
+
 ### flex
 
 ## 출처
