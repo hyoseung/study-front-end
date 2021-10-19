@@ -112,7 +112,7 @@ flex-direction과 flex-warp 두 속성property 의 간단 표기법
 > #### space-between
 >
 > * 시작 item은 시작점에, 마지막 item은 끝점에 정렬, 나머지는 동일한 간격으로 정렬
-> * Flex Container에 빈 공간이 있을 때 사용 
+> * Flex Container에 빈 공간이 있을 때 사용&#x20;
 >
 > #### space-around
 >
@@ -150,7 +150,7 @@ align-item과 동시에 지정하였을 때 align-content과 우선
 > #### space-between
 >
 > * 시작 item은 시작점에, 마지막 item은 끝점에 정렬, 나머지는 동일한 간격으로 정렬
-> * Flex Container에 빈 공간이 있을 때 사용 
+> * Flex Container에 빈 공간이 있을 때 사용&#x20;
 >
 > #### space-around
 >
@@ -203,19 +203,144 @@ align-item과 동시에 지정하였을 때 align-content과 우선
 
 ### order
 
+Flex Item의 순서를 재배치 함
 
+order값을 기본으로 오름차순으로 배치됨, 순서가 동일하면 소스코드 기준로 정해짐
 
-### flex
+> 0 (기본값)
+>
+> 정수값을 이용하여 지정 (0, 양수, 음수)
 
-
+```css
+.flex-item{
+  oreder : <interger>;
+}
+```
 
 ### align-self
 
+교차축을 방향으로 박스를 개별적으로 배치해야하는 경우 사용하는 속성값
 
+교차축 margin이 auto로 설정되어있으면 align-self 효과가 없음
+
+> #### auto (기본값)
+>
+> * 부모요소인 felx container에 지정된 align-items의 값을 가져옴
+>
+> #### stretch
+>
+> * flex item의 높이는 flex container 내 flex item행의 최대 높이로 지정됨
+> * flext item 행이 하나 일때는 flex item은 교차축 방향으로 flex container를 가득 채움
+>
+> #### flex-start
+>
+> * 교차축의 시작선부터 flext item을 정렬
+>
+> #### flex-end
+>
+> * 교차축의 끝선에 flex item 마지막 항목이 오게 정렬
+>
+> #### center
+>
+> * 교차축의 가운데에 flex item을 정렬
+>
+> #### baseline
+>
+> * flex item을 문자의 기준선에 맞게 정렬
+
+```css
+.flex-item{
+  align-self: auto | stretch | flex-start | flex-end | center | baseline ;
+}
+```
+
+### flex-grow
+
+flex container에 여백이 있을 때 flex item의 크기를 늘일 수 있는 속성 (확장여부 결정)
+
+속성값은 비율로 설정, 음수값은 사용할 수 없음
+
+> #### 0 (기본값)
+>
+> * flex item을 확장하지 않음
+>
+> #### 1
+>
+> * flex item의 너비를 flex container 내부에 남은 공간에 채워지도록 각 item에 분배하여 너비를 확장
+>
+> #### 양의 정수
+>
+> * number 값이 클수록 확장 지수를 커짐
+>
+> #### flex item 크기
+>
+> * 박스 기본 크기 + (free space / 팽창지수 총합) \* flex-grow값
+
+```css
+.flex-item{
+  flex-grow:number;
+}
+```
+
+### flex-shrink
+
+flex container의 공간이 부족할 때 flex item의 크기를 줄이는 방법
+
+속성값은 비율로 설정, 음수값은 사용할 수 없음
+
+> #### 0 (기본값)
+>
+> * flex item을 축소하지 않음
+>
+> #### 1
+>
+> * flex item의 너비를 flex container 내부에 맞게 item의 크기를 축소함
+>
+> #### 양의 정수
+>
+> * number 값이 클수록 축소 지수를 커짐
+>
+> #### flex item 크기
+>
+> * 박스 기본 크기 + (free space / 수축지수 총합) \* flex-shrink값
+
+```css
+.flex-item{
+  flex-shrink:number;
+}
+```
+
+### flex-basis
+
+flext itemfddddd
+
+속성값은 비율로 설정, 음수값은 사용할 수 없음
+
+>
+
+```css
+.flex-item{
+  flex-grow:number;
+}
+```
+
+### flex
+
+flex container에 여백이 있을 때 flex item의 크기를 늘일 수 있는 속성 (확장여부 결정)
+
+속성값은 비율로 설정, 음수값은 사용할 수 없음
+
+>
+
+```css
+.flex-item{
+  flex-grow:number;
+}
+```
 
 ## 출처
 
 * Do it! 반응형 웹 페이지 만들기 | 김운아 | 이지스퍼블리싱
 * [Using U | CSS Flexbox Layout](https://usingu.co.kr/references/css/flexbox-layout/)
 * [HEROPY Tech | 2018.09 | CSS Flex(Flexible Box) 완벽가이드](https://heropy.blog/2018/11/24/css-flexible-box/)
-* [MDN Web Docs | flexbox의 기본 개념](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+* [MDN Web Docs | flexbox의 기본 개념](https://developer.mozilla.org/ko/docs/Web/CSS/CSS\_Flexible\_Box\_Layout/Basic\_Concepts\_of\_Flexbox)
