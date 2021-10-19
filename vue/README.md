@@ -4,7 +4,7 @@
 
 ### vsc 설치
 
-{% embed url="https://code.visualstudio.com" %}
+[https://code.visualstudio.com](https://code.visualstudio.com)
 
 ### vsc 플러그인 설치 및 설정
 
