@@ -12,7 +12,7 @@ yarn create react-app <project명>
 
 * reactjs code snippet 확정 프로그램 설치&#x20;
 
-![](.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 * rsc : 함수형 컴포넌트 코드 생성
 * rcc : 클래스형 컴포넌트 코드 생성
