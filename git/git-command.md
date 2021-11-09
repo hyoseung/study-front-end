@@ -6,9 +6,14 @@
 * stage올리기 : `git add .`
 * commit 하기 : `git commit -m "commit 내용"`
 * `git push [원격 저장소 이름] [로컬 브랜치 이름]`
-* `git pull  [원격 저장소 이름] [로컬 브랜치 이름]`
+* `git pull [원격 저장소 이름] [로컬 브랜치 이름]`
+*   add 후 commit 하기전 취소하고 싶을 경우
 
+    `git rm -r --cached 폴더명`
 
+    `git rm --cached 파일명`
+
+    `git rm -r --cached .`
 
 ## 환경
 
@@ -20,8 +25,8 @@
 * 원격 브랜치 목록 : `git branch -r`
 * 로컬 브랜치 목록 : `git branch -a`
 * 현재 브랜치 확인 : `git branch -v`
-* 로컬에 새로운 브랜치 생성 : `git branch [branch 이름`]
-* 로컬 브랜치 삭제 : `git branch -d [branch 이름`]
+* 로컬에 새로운 브랜치 생성 : `git branch [branch 이름]`
+* 로컬 브랜치 삭제 : `git branch -d [branch 이름]`
 * 현재 브랜치 상태 : `git status`
 * 브랜치 이동 : `git checkout [branch 이름]`
 * git 원격 브랜치 tracking 삭제 : `git branch --delete --remotes origin/main`
@@ -35,7 +40,7 @@
 local develop branch가 feature/test branch보다 commit이 앞서있는 경우
 
 1. `git checkout feature/test`
-2. `git merge develop`  (feature/test <- develop, fast-forward 됨)
+2. `git merge develop` (feature/test <- develop, fast-forward 됨)
 
 ## stash
 
@@ -65,7 +70,7 @@ reset기능은 혼자만 사용하는 branch 이거나, 다른 사람들이 해�
 
 위와 같은 상황에서 `feature/test`를 `develop`으로 `merge`를 하려고 할 때, `merge`대신 `rebase`를 한다.
 
-1. `feature/test`로 `checkout`  (git checkout feature/test)
+1. `feature/test`로 `checkout` (git checkout feature/test)
 2. `git rebase develop`
    * gitkraken : rebase feature/test onto develop
    * sourcetree : develop(으)로 현재 바뀐 내용 재배치
