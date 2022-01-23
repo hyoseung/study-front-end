@@ -48,6 +48,7 @@
   * [환경변수 설정](vue/env-config.md)
   * [참고 라이브러리](vue/undefined.md)
 * [React](react/README.md)
+  * [IE 지원](react/ie-support.md)
   * [불변성](react/immutability.md)
 * [반응형 Web/App](mobile-web/README.md)
   * [mobile app과 PWA](mobile-web/mobile-app-pwa-intro.md)
