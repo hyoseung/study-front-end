@@ -2,7 +2,25 @@
 
 ## 설정
 
-&#x20;
+### react-scripts 버전 3.2.0으로 다운그레이드
+
+[참고](https://stackoverflow.com/questions/59834690/react-app-polyfill-doesnt-work-in-ie11)
+
+```
+yarn add react-scripts@3.2.0
+```
+
+&#x20;react-scripts를 3.2.0으로 다운그레이드 할 경우, 아래와 같이 import 필요   &#x20;
+
+```
+import React from 'react';
+```
+
+### react-app-polyfill 설치
+
+```
+// Some code ㅛㅁyarn add react-app-polyfill
+```
 
 ## 출처
 
