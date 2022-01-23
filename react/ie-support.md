@@ -19,7 +19,35 @@ import React from 'react';
 ### react-app-polyfill 설치
 
 ```
-// Some code ㅛㅁyarn add react-app-polyfill
+yarn add react-app-polyfill
+```
+
+package.json
+
+```
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 9-10",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+```
+
+index.js
+
+* 첫줄에 추가&#x20;
+
+```
+import 'react-app-polyfill/ie9'; 
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 ```
 
 ## 출처
